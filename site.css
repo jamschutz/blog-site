@@ -81,6 +81,10 @@ header {
     padding: 0px 50px;
 }
 
+.Body-container a {
+    color: var(--font-color);
+}
+
 
 
 /* Blog
@@ -108,10 +112,18 @@ header {
 .Blog-header {
     font-family: 'MainFont-bold';
     font-size: 32px;
+    margin-top: 25px;
+}
+
+.Blog-subheader {
+    margin-top: 25px;
+    font-family: 'MainFont-regular';
+    font-size: 18px;
 }
 
 .Blog-imageFullWidth {
     width: 100%;
+    margin-top: 25px;
 }
 
 
