@@ -1,17 +1,15 @@
 ---
 layout: 'blogpost.liquid'
-info:
-    title: Favorites of 2022
+title: Favorites of 2022
+img: /img/favorites-of-2022/animalCrossing.webp
+meta:
     date: January 2, 2023
     url: favorites-of-2022
-    img: /img/favorites-of-2022/animalCrossing.webp
 ---
 
 <!-- INTRO -->
 {% capture intro %}
 I guess the last time I did one of these was four years ago…wow! This year I played a lot of wonderful games, though the vast majority of them were made by friends and peers (journalistic integrity be damned). I suppose these sorts of lists are somewhat self-indulgent, but I enjoy making them, so here it is! This year I decided to include my favorite movies and books I enjoyed over the year as well. The list isn't ranked at all — everything is listed in the order in which I came to it — and I didn't bother to trim it to only “the top ten” or anything. Different things resonated with me for different reasons, and why shouldn't we praise and celebrate generously, after all? If something stuck with me, however large or small, I've included it below.
-
-I am working on a game about goodbyes right now, and it has made me realize how complicatedly beautiful these “goodbyes” to the new year are — celebrations for some of the most difficult aspects of our lives: change, age, and the loss of time. But, of course, these are not empty losses. They are bounties, harvests of wisdom and friendship and, yes, the odd videogame. Here are some things I was grateful for this year.
 
 I am working on a game about goodbyes right now, and it has made me realize how complicatedly beautiful these “goodbyes” to the new year are — celebrations for some of the most difficult aspects of our lives: change, age, and the loss of time. But, of course, these are not empty losses. They are bounties, harvests of wisdom and friendship and, yes, the odd videogame. Here are some things I was grateful for this year.
 {% endcapture %}

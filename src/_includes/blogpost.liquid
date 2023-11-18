@@ -1,19 +1,18 @@
 ---
 layout: 'base.liquid'
-title: {{ info.title }}
-permalink: "{{ info.url }}/index.html"
+permalink: "{{ meta.url }}/index.html"
 ---
 
 <div class="Blog-title">
-    {{ info.title }}
+    {{ title }}
 </div>
 <div class="Blog-date">
-    {{ info.date }}
+    {{ meta.date }}
 </div>
 
-{% if info.img != null and info.img != ""  %}
+{% if img != null and img != ""  %}
 <div class="Blog-imageFullWidth">
-    <img src="{{ info.img }}"></img>
+    <img src="{{ img }}"></img>
 </div>
 {% endif %}
 
