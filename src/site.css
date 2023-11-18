@@ -52,7 +52,7 @@ header {
     display: inline-block;
     list-style: none;
     margin: 10px 30px;
-    font-family: 'TitleFont-bold';
+    font-family: 'MainFont-bold';
 }
 
 .Header-container {
@@ -62,7 +62,7 @@ header {
     width: 800px;
     height: 50px;
     margin: auto;
-    background-color: #9aff66;
+    background-color: #b7fb94;
     margin-top: 25px;
 }
 
@@ -79,6 +79,8 @@ header {
     margin: auto;
     background: #d9f1ee;
     padding: 0px 50px;
+    margin-bottom: 70px;
+    padding-bottom: 25px;
 }
 
 .Body-container a {
