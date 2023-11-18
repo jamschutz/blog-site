@@ -4,7 +4,7 @@ const { rm } = require("fs/promises")
 module.exports = function(eleventyConfig) {
     // -- constants --
     const srcDir = "src"
-    const dstDir = "_site"
+    const dstDir = "docs"
     
 
     // -- assets --
