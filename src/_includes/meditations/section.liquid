@@ -1,0 +1,22 @@
+<div class="Meditations-gameSection" style="{{ customCss }}">
+    <div class="Blog-subheader">
+        {%- if gameLink != null and gameLink != '' -%}
+            <a href="{{ gameLink }}"><i>{{ gameTitle }}</i>, </a>
+        {%- else -%}
+            <i>{{ gameTitle }}</i>, 
+        {%- endif -%}
+        {% if authorLink != null and authorLink != '' %}
+            <a href="{{ authorLink }}"> {{ author }}</a>
+        {% else %}
+             {{ author }}
+        {% endif %}
+    </div>
+
+    {% if img != null and img != '' %}
+        <div class="Blog-imageFullWidth">
+            <img src="{{ img }}"></img>
+        </div>
+    {% endif %}
+    
+    {% render 'blog/paragraphs.liquid' text: text %}
+</div>

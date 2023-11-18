@@ -1,0 +1,20 @@
+---
+layout: 'base.liquid'
+title: {{ info.title }}
+permalink: "{{ info.url }}/index.html"
+---
+
+<div class="Blog-title">
+    {{ info.title }}
+</div>
+<div class="Blog-date">
+    {{ info.date }}
+</div>
+
+{% if info.img != null and info.img != ""  %}
+<div class="Blog-imageFullWidth">
+    <img src="{{ info.img }}"></img>
+</div>
+{% endif %}
+
+{{ content }}

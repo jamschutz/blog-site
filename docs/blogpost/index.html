@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
 
 <head>
-    <title>{{ title }}</title>
+    <title>[object Object]</title>
     <link rel="icon" href="/img/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/site.css">
@@ -12,14 +12,29 @@
 <html lang="en">
     
     <body>
-        {% render "header.liquid" %}
+        <header>
+    <div class="Header-container">
+        <nav>
+            <ul>
+                <li><a>home</a></li>
+                <li><a>archive</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
         
         <div class="Body">
             <div class="Body-container">
-                {{ content  }}
+                
+<div class="Blog-title">
+    [object Object]
+</div>
+<div class="Blog-date">
+    
+</div>
             </div>
         </div>
 
-        {% render "footer.liquid" %}
+        <footer></footer>
     </body>
 </html>
