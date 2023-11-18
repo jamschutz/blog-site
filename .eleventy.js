@@ -1,4 +1,5 @@
 const PostCSSPlugin = require("eleventy-plugin-postcss")
+const { rm } = require("fs/promises")
 
 module.exports = function(eleventyConfig) {
     // -- constants --
