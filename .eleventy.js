@@ -1,5 +1,6 @@
 const PostCSSPlugin = require("eleventy-plugin-postcss")
 const { rm } = require("fs/promises")
+const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
     // -- constants --
@@ -18,6 +19,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.on("eleventy.after", async () => {
         await rm(`${dstDir}/_collections`, { recursive: true, force: true })
     })
+
+    // copy CNAME over
+    fs.copyFile('CNAME', 'docs/CNAME', (err) => {
+        if (err) throw err;
+        console.log('File was copied to destination');
+    });
 
 
     return {
