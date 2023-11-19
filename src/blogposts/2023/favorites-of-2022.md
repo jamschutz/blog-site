@@ -255,15 +255,6 @@ It will take you three minutes — you should play it.
 %}
 
 {% render 'meditations/section.liquid' 
-    gameTitle: ''
-    author: ''
-    gameLink: ''
-    authorLink: ''
-    img: '/img/favorites-of-2022/MagicWand.webp'
-    text: 
-%}
-
-{% render 'meditations/section.liquid' 
     gameTitle: 'like a hot knife through butter'
     author: 'pancelor'
     gameLink: 'https://pancelor.itch.io/like-a-hot-knife-through-butter'
@@ -300,15 +291,6 @@ It will take you three minutes — you should play it.
 %}
 
 {% render 'meditations/section.liquid' 
-    gameTitle: ''
-    author: ''
-    gameLink: ''
-    authorLink: ''
-    img: '/img/favorites-of-2022/MagicWand.webp'
-    text: 
-%}
-
-{% render 'meditations/section.liquid' 
     gameTitle: 'Re: Imagine the Character'
     author: 'mut'
     gameLink: 'https://mutmedia.itch.io/re-imagine-the-character'
@@ -340,7 +322,7 @@ It will take you three minutes — you should play it.
     author: 'Danny Hawk'
     gameLink: 'https://hawkdanny.itch.io/how-to-be-born'
     authorLink: 'https://hawkdanny.itch.io/'
-    img: '/img/favorites-of-2022/MagicWand.webp'
+    img: '/img/favorites-of-2022/HowToBeBorn.webp'
     text: howToBeBorn
 %}
 
