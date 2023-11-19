@@ -1,24 +1,25 @@
-/* Global styles
+
+/* Variables / fonts / etc
 ---------------------------------------*/
 @font-face {
     font-family: 'MainFont-regular';
-    src: url('/fonts/Spectral-Regular.ttf'); 
+    /* src: url('/fonts/fontshare/Sentient_Complete/Fonts/WEB/fonts/Sentient-Variable.woff2'); */
+    /* src: url('/fonts/fontshare/BespokeSerif_Complete/Fonts/WEB/fonts/BespokeSerif-Variable.woff2'); */
+    /* src: url('/fonts/fontshare/Erode_Complete/Fonts/WEB/fonts/Erode-Variable.woff2'); */
+    src: url('/fonts/fontshare/Gambetta_Complete/Fonts/WEB/fonts/Gambetta-Variable.woff2');
+    /* src: url('/fonts/fontshare/Rowan_Complete/Fonts/WEB/fonts/Rowan-Variable.woff2'); */
 }
 @font-face {
     font-family: 'MainFont-bold';
-    src: url('/fonts/Spectral-Bold.ttf'); 
+    src: url('/fonts/Switzer/Switzer_Complete/Fonts/WEB/fonts/Switzer-Bold.ttf'); 
 }
 @font-face {
     font-family: 'MainFont-semibold';
-    src: url('/fonts/Spectral-SemiBold.ttf'); 
-}
-@font-face {
-    font-family: 'MainFont-semibold-italic';
-    src: url('/fonts/Spectral-SemiBoldItalic.ttf'); 
+    src: url('/fonts/Switzer/Switzer_Complete/Fonts/WEB/fonts/Switzer-Medium.ttf'); 
 }
 @font-face {
     font-family: 'MainFont-thin';
-    src: url('/fonts/Spectral-Medium.ttf');
+    src: url('/fonts/Switzer/Switzer_Complete/Fonts/WEB/fonts/Switzer-Light.ttf');
 }
 @font-face {
     font-family: 'TitleFont-regular';
@@ -34,9 +35,15 @@
     --font-color: #000;
     --background-pink: #ff9ecf;
     --background-blue: #99d9ea;
-}
-  
+    --link-purple: #8553f7;
+    --header-green: #b7fb94;
 
+}
+
+
+  
+/* Global styles
+---------------------------------------*/
 html {
     font-family: 'MainFont-regular';
 }
@@ -48,6 +55,7 @@ html, body {
     background-image: url('img/pinksmiles.png');
     background-repeat: repeat;
     font-family: 'MainFont-regular';
+    font-weight: 450;
     color: var(--font-color);
 }
 
@@ -62,7 +70,8 @@ header {
     display: inline-block;
     list-style: none;
     margin: 10px 30px;
-    font-family: 'MainFont-bold';
+    font-family: 'MainFont-regular';
+    font-weight: 700;
 }
 
 .Header-container {
@@ -72,7 +81,7 @@ header {
     width: 800px;
     height: 50px;
     margin: auto;
-    background-color: #b7fb94;
+    background-color: var(--header-green);
     margin-top: 25px;
     font-size: 18px;
 }
@@ -80,6 +89,12 @@ header {
 header a {
     text-decoration: none;
     color: black;
+}
+header a:hover {
+    font-family: 'MainFont-regular';
+    font-weight: 800;
+    font-size: 20px;
+    background-color: var(--background-pink);
 }
 
 
@@ -96,11 +111,24 @@ header a {
     background: #d9f1ee;
     padding: 0px 50px;
     margin-bottom: 70px;
-    padding-bottom: 25px;
+    padding-bottom: 85px;
 }
 
 .Body-container a {
-    color: var(--font-color);
+    color: var(--link-purple);
+}
+.Body-container a:hover {
+    font-family: 'MainFont-regular';
+    font-weight: 600;
+    font-style: italic;
+    background-color: var(--background-pink);
+}
+.Body-container a:visited {
+    color: var(--link-purple);
+    font-family: 'MainFont-regular';
+    font-weight: 600;
+    font-style: italic;
+    background-color: var(--background-pink);
 }
 
 
@@ -109,26 +137,31 @@ header a {
 ---------------------------------------*/
 .Blog-paragraph {
     font-family: 'MainFont-regular';
+    font-weight: 450;
     font-size: 18px;
     margin-top: 25px;
     text-align: justify;
+    line-height: 1.6em;
 }
 
 .Blog-title {
-    font-family: 'MainFont-bold';
+    font-family: 'MainFont-regular';
+    font-weight: 700;
     font-size: 42px;
     margin-top: 25px;
     padding-top: 25px;
 }
 
 .Blog-date {
-    font-family: 'MainFont-thin';
+    font-family: 'MainFont-regular';
+    font-weight: 200;
     font-size: 18px;
     color: #3f3f3f;
 }
 
 .Blog-header {
-    font-family: 'MainFont-bold';
+    font-family: 'MainFont-regular';
+    font-weight: 700;
     font-size: 32px;
     margin-top: 25px;
 }
@@ -152,6 +185,22 @@ footer {
     height: 20px;
     flex-shrink: 0;
     margin: auto;
+    width: 700px;
+    margin-top: 70px;
+}
+
+footer hr {
+    height: 2px;
+    border: 0;
+    background-color: var(--background-pink);
+}
+
+.Body-container footer a {
+    color: var(--link-purple);
+}
+
+.Body-container footer a:hover {
+    background-color: var(--background-pink);
 }
 
 
@@ -173,16 +222,6 @@ footer {
 
 }
 .Body-container .Archive-link a {
-    color: #8553f7;
+    color: var(--link-purple);
     text-decoration: none;
-}
-.Body-container .Archive-link a:hover {
-    /* color: rgb(236, 247, 83); */
-    font-family: 'MainFont-semibold-italic';
-    background-color: var(--background-pink);
-}
-.Body-container .Archive-link a:visited {
-    color: #8553f7;
-    font-family: 'MainFont-semibold-italic';
-    background-color: var(--background-pink);
 }
