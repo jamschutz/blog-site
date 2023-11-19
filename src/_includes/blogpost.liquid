@@ -1,13 +1,13 @@
 ---
 layout: 'base.liquid'
-permalink: "{{ meta.url }}/index.html"
+permalink: "{{ title | handleize }}/index.html"
 ---
 
 <div class="Blog-title">
     {{ title }}
 </div>
 <div class="Blog-date">
-    {{ meta.date }}
+    {{ date | getDateString }}
 </div>
 
 {% if img != null and img != ""  %}

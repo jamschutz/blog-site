@@ -2,9 +2,7 @@
 layout: 'blogpost.liquid'
 title: Favorites of 2022
 img: /img/favorites-of-2022/animalCrossing.webp
-meta:
-    date: January 2, 2023
-    url: favorites-of-2022
+date: 2023-01-02
 ---
 
 <!-- INTRO -->
