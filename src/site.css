@@ -82,7 +82,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 800px;
+    /* width: 800px; */
     height: 50px;
     margin: auto;
     background-color: var(--header-green);
@@ -109,11 +109,78 @@ header a:hover {
     flex-grow: 1;
 }
 
+/* Custom, iPhone Retina */ 
+@media only screen and (max-device-width: 480px) {
+    .Body-container {
+        width: 90vw;
+        padding: 0px 10px;
+    }
+
+    .Header-container {
+        width: calc(90vw + 20px);
+    }
+
+    footer {
+        width: calc(90vw + 20px);
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-device-width: 768px) {
+    .Body-container {
+        width: 85vw;
+        padding: 0px 20px;
+    }
+
+    .Header-container {
+        width: calc(85vw + 40px);
+    }
+
+    footer {
+        width: calc(85vw + 40px);
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-device-width: 874px) {
+    .Body-container {
+        width: 80vw;
+        padding: 0px 35px;
+        max-width: 700px;
+    }
+
+    .Header-container {
+        width: calc(80vw + 70px);
+        max-width: 800px;
+    }
+
+    footer {
+        width: calc(80vw + 70px);
+        max-width: 700px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 874px) {
+    .Body-container {
+        width: 700px;
+        padding: 0px 50px;
+    }
+
+    .Header-container {
+        width: 800px;
+    }
+
+    footer {
+        width: 700px;
+    }
+}
+
 .Body-container {
-    width: 700px;
+    /* width: 700px; */
     margin: auto;
     background: #d9f1ee;
-    padding: 0px 50px;
+    /* padding: 0px 50px; */
     margin-bottom: 70px;
     padding-bottom: 85px;
 }
@@ -192,7 +259,7 @@ footer {
     height: 20px;
     flex-shrink: 0;
     margin: auto;
-    width: 700px;
+    /* width: 700px; */
     margin-top: 70px;
 }
 
