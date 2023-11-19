@@ -29,6 +29,10 @@
     font-family: 'TitleFont-bold';
     src: url('/fonts/Lato/Lato-Bold.ttf');
 }
+@font-face {
+    font-family: 'Monospace-regular';
+    src: url('/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf')
+}
 :root {
     --font-color: #000;
     --background-pink: #ff9ecf;
@@ -152,6 +156,9 @@ header a:hover {
     width: 100%;
     margin-top: 25px;
 }
+.Blog-imageFullWidth img {
+    width: 100%;
+}
 /* Footer
 ---------------------------------------*/
 footer {
@@ -179,6 +186,10 @@ footer hr {
 }
 .Archive-container {
     font-size: 22px;
+    font-family: 'Monospace-regular';
+}
+.Archive-container a:hover {
+    font-family: 'Monospace-regular';
 }
 .Body-container .Archive-link {
 
