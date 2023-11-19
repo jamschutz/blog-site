@@ -6,7 +6,7 @@
     "scripts": {
       "start": "eleventy --serve --port=1000",
       "build": "eleventy",
-      "clean": "rmdir /s _site"
+      "clean": "rmdir /s docs"
     },
     "author": "Joey Schutz",
     "license": "ISC",

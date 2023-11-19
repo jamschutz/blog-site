@@ -3,6 +3,7 @@ layout: 'blogpost.liquid'
 title: Favorites of 2022
 img: /img/favorites-of-2022/animalCrossing.webp
 date: 2023-01-02
+tags: blog
 ---
 
 <!-- INTRO -->

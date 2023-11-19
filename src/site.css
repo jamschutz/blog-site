@@ -9,6 +9,14 @@
     src: url('/fonts/Spectral-Bold.ttf'); 
 }
 @font-face {
+    font-family: 'MainFont-semibold';
+    src: url('/fonts/Spectral-SemiBold.ttf'); 
+}
+@font-face {
+    font-family: 'MainFont-semibold-italic';
+    src: url('/fonts/Spectral-SemiBoldItalic.ttf'); 
+}
+@font-face {
     font-family: 'MainFont-thin';
     src: url('/fonts/Spectral-Medium.ttf');
 }
@@ -24,6 +32,8 @@
 
 :root {
     --font-color: #000;
+    --background-pink: #ff9ecf;
+    --background-blue: #99d9ea;
 }
   
 
@@ -64,6 +74,12 @@ header {
     margin: auto;
     background-color: #b7fb94;
     margin-top: 25px;
+    font-size: 18px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -144,4 +160,29 @@ footer {
 ---------------------------------------*/
 .Meditations-gameSection {
     margin-top: 70px;
+}
+
+
+
+.Archive-container {
+    font-size: 22px;
+}
+
+
+.Body-container .Archive-link {
+
+}
+.Body-container .Archive-link a {
+    color: #8553f7;
+    text-decoration: none;
+}
+.Body-container .Archive-link a:hover {
+    /* color: rgb(236, 247, 83); */
+    font-family: 'MainFont-semibold-italic';
+    background-color: var(--background-pink);
+}
+.Body-container .Archive-link a:visited {
+    color: #8553f7;
+    font-family: 'MainFont-semibold-italic';
+    background-color: var(--background-pink);
 }

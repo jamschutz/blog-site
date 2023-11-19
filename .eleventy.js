@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
     // -- filters --
     eleventyConfig.addFilter("getDateString", dateToString);
     eleventyConfig.addFilter('handleize', handleize);
+    eleventyConfig.addFilter('getDateShortString', dateToShortString);
 
     
     // -- build --
@@ -55,8 +56,35 @@ function dateToString(date) {
         timeZone: 'UTC'
     };
     
-    console.log(date.toLocaleString("en-US", options));
     return date.toLocaleString("en-US", options);
+}
+
+
+function dateToShortString(date) {
+    // Request a weekday along with a long date
+    const options = {
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        timeZone: 'UTC'
+    };
+    let dateString = date.toLocaleString('en-US', options);
+    let month = dateString.split('/')[0];
+    let day = dateString.split('/')[1];
+    let year = dateString.split('/')[2];
+
+    console.log(month);
+    console.log(day);
+    console.log(year);
+
+    if(month.length === 1) {
+        month = `0${month}`;
+    }
+    if(day.length === 1) {
+        day = `0${day}`;
+    }
+    
+    return `${month}-${day}-${year}`;
 }
 
 
