@@ -7,6 +7,10 @@
     <link rel="icon" href="/img/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/site.css">
+
+    {% if includeScript != null %}
+        <script src="{{ includeScript }}"></script>
+    {% endif %}
 </head>
 
 <html lang="en">

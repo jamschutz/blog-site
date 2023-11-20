@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
     // -- assets --
     eleventyConfig.addPlugin(PostCSSPlugin);
     eleventyConfig.addPassthroughCopy('img');
+    eleventyConfig.addPassthroughCopy('src/code');
     eleventyConfig.addPassthroughCopy('fonts');
 
 
@@ -72,10 +73,6 @@ function dateToShortString(date) {
     let month = dateString.split('/')[0];
     let day = dateString.split('/')[1];
     let year = dateString.split('/')[2];
-
-    console.log(month);
-    console.log(day);
-    console.log(year);
 
     if(month.length === 1) {
         month = `0${month}`;
