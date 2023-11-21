@@ -1,7 +1,12 @@
 {% render 'blog/header' text: '-------- Comments --------' customCss: 'margin-top: 85px;' %}
 
 <div id="Blog-commentsSectionContainer">
+    <div class="Blog-commentNameInput">
+        <div class="Blog-commentNameInputLabel">Name (optional):</div>
+        <input type="text" placeholder="you name (optional)">
+    </div>
     <div class="Blog-commentInputField">
+        <div class="Blog-commentNameInputLabel">Comment:</div>
         <textarea></textarea>
         <button>submit comment</button>
     </div>

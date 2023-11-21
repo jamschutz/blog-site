@@ -269,6 +269,28 @@ header a:hover {
     color: var(--link-purple);
 }
 
+.Blog-commentNameInput {
+    margin-bottom: 15px;
+}
+
+.Blog-commentNameInputLabel {
+    font-family: 'MainFont-regular';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--link-purple);
+}
+
+.Blog-commentNameInput input {
+    background-color : var(--header-green);
+    width: 688px; 
+    border: 1px solid var(--link-purple); 
+    padding: 5px;
+    font-family: 'MainFont-regular';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--link-purple);
+}
+
 .Blog-commentInputField button {
     font-family: 'MainFont-regular';
     font-weight: 800;
