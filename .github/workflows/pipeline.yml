@@ -1,0 +1,12 @@
+name: deploy website
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: touch /config.txt
+      - run: echo "can you see me?" >> /config.txt

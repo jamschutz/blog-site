@@ -35,6 +35,7 @@
     --background-blue: #99d9ea;
     --link-purple: #8553f7;
     --header-green: #b7fb94;
+    --medium-gray: #575757;
 
 }
 /* Global styles
@@ -60,9 +61,11 @@ header {
 .Header-container nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 30px;
     font-family: 'MainFont-regular';
     font-weight: 700;
+}
+.Header-container nav ul {
+    padding-inline-start: 0px;
 }
 .Header-container {
     display: flex;
@@ -99,9 +102,19 @@ header a:hover {
     .Header-container {
         width: calc(90vw + 20px);
     }
+    .Header-container nav ul li {
+        margin: 10px 10px;
+    }
 
     footer {
         width: calc(90vw + 20px);
+    }
+
+    .Blog-commentNameInput input {
+        width: 87vw;
+    }
+    .Blog-commentInputField input[type="text"], textarea {
+        width: 87vw;
     }
 }
 /* Extra Small Devices, Phones */
@@ -114,9 +127,19 @@ header a:hover {
     .Header-container {
         width: calc(85vw + 40px);
     }
+    .Header-container nav ul li {
+        margin: 10px 30px;
+    }
 
     footer {
         width: calc(85vw + 40px);
+    }
+
+    .Blog-commentNameInput input {
+        width: 83vw;
+    }
+    .Blog-commentInputField input[type="text"], textarea {
+        width: 83vw;
     }
 }
 /* Small Devices, Tablets */
@@ -131,10 +154,20 @@ header a:hover {
         width: calc(80vw + 70px);
         max-width: 800px;
     }
+    .Header-container nav ul li {
+        margin: 10px 30px;
+    }
 
     footer {
         width: calc(80vw + 70px);
         max-width: 700px;
+    }
+
+    .Blog-commentNameInput input {
+        width: 78vw;
+    }
+    .Blog-commentInputField input[type="text"], textarea {
+        width: 78vw;
     }
 }
 /* Medium Devices, Desktops */
@@ -147,9 +180,19 @@ header a:hover {
     .Header-container {
         width: 800px;
     }
+    .Header-container nav ul li {
+        margin: 10px 30px;
+    }
 
     footer {
         width: 700px;
+    }
+
+    .Blog-commentNameInput input {
+        width: 688px;
+    }
+    .Blog-commentInputField input[type="text"], textarea {
+        width: 688px;
     }
 }
 .Body-container {
@@ -217,13 +260,74 @@ header a:hover {
 .Blog-imageFullWidth img {
     width: 100%;
 }
+/* Comments
+---------------------------------------*/
+.Blog-commentContainer {
+    margin-top: 25px;
+    background-color: var(--header-green);
+    padding: 15px;
+}
+#Blog-commentsHeader {
+    margin-top: 50px;
+    color: var(--link-purple);
+}
+#Blog-commentsHeader hr {
+    border-top: dotted 4px;
+}
+.Blog-commentInputField input[type="text"], textarea {
+    background-color : var(--header-green);
+    /* width: 688px;  */
+    height: 100px; 
+    border: 1px solid var(--link-purple); 
+    padding: 5px;
+    font-family: 'MainFont-regular';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--link-purple);
+}
+.Blog-commentNameInput {
+    margin-bottom: 15px;
+}
+.Blog-commentNameInputLabel {
+    font-family: 'MainFont-regular';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--link-purple);
+}
+.Blog-commentNameInput input {
+    background-color : var(--header-green);
+    /* width: 688px;  */
+    border: 1px solid var(--link-purple); 
+    padding: 5px;
+    font-family: 'MainFont-regular';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--link-purple);
+}
+.Blog-commentInputField button {
+    font-family: 'MainFont-regular';
+    font-weight: 800;
+    font-size: 16px;
+    background-color : var(--background-pink);
+    color: var(--link-purple);
+    border-color: var(--background-blue);
+    border-radius: 5px;
+}
+.Blog-commentName {
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--link-purple);
+}
+.Blog-commentDate {
+    font-size: 16px;
+    font-weight: 350;
+}
 /* Footer
 ---------------------------------------*/
 footer {
     height: 20px;
     flex-shrink: 0;
     margin: auto;
-    /* width: 700px; */
     margin-top: 70px;
 }
 footer hr {
