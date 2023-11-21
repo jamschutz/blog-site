@@ -1,3 +1,3 @@
 [submodule "blog-site-secrets"]
-	path = docs/restricted
+	path = docs/restricted/
 	url = https://github.com/jamschutz/blog-site-secrets.git
