@@ -305,11 +305,12 @@ header a:hover {
 }
 #Blog-commentsHeader hr {
     border-top: dotted 4px;
+    color: var(--link-purple);
+    border-bottom: 0px;
 }
 
 .Blog-commentInputField input[type="text"], textarea {
     background-color : var(--header-green);
-    /* width: 688px;  */
     height: 100px; 
     border: 1px solid var(--link-purple); 
     padding: 5px;
