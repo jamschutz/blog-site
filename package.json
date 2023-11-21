@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "eleventy --serve --port=1000",
-      "build": "eleventy",
+      "start": "set ENVIRONMENT=dev & eleventy --serve --port=1000",
+      "build": "set ENVIRONMENT=prod & eleventy",
       "clean": "rmdir /s docs"
     },
     "author": "Joey Schutz",

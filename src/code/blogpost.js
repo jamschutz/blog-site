@@ -1,5 +1,3 @@
-const API_BASE_URL = 'http://localhost:7071/api/'
-
 async function getComments() {
     // let response = await fetch(`${API_BASE_URL}/GetComments?url=${window.location}`, { 
     let response = await fetch('http://localhost:7071/api/GetComments?url=http://localhost:1000/sunday-meditation-taiko-forever/', { 
