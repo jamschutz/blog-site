@@ -1,25 +1,25 @@
 {
-    "name": "joey-schutz-blog",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "eleventy --serve --port=1000",
-      "build": "eleventy",
-      "clean": "rmdir /s docs"
-    },
-    "author": "Joey Schutz",
-    "license": "ISC",
-    "dependencies": {
-      "@11ty/eleventy": "^2.0.1",
-      "@types/node": "^20.5.1",
-      "autoprefixer": "^10.4.15",
-      "eleventy-plugin-postcss": "^1.0.4",
-      "esbuild-register": "^3.3.2",
-      "postcss-import": "^15.1.0",
-      "postcss-simple-vars": "^7.0.1"
-    },
-    "overrides": {
-      "semver": ">=7.5.2"
-    }
+  "name": "joey-schutz-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set ENVIRONMENT=dev & eleventy --serve --port=1000",
+    "build": "set ENVIRONMENT=prod & eleventy",
+    "clean": "rmdir /s docs"
+  },
+  "author": "Joey Schutz",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@types/node": "^20.5.1",
+    "autoprefixer": "^10.4.15",
+    "eleventy-plugin-postcss": "^1.0.4",
+    "esbuild-register": "^3.3.2",
+    "postcss-import": "^15.1.0",
+    "postcss-simple-vars": "^7.0.1"
+  },
+  "overrides": {
+    "semver": ">=7.5.2"
   }
+}

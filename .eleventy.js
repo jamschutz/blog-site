@@ -4,6 +4,7 @@ const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
     // -- constants --
+    const buildEnvironment = process.env.ENVIRONMENT.trim();
     const srcDir = "src"
     const dstDir = "docs"
     
@@ -19,6 +20,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("getDateString", dateToString);
     eleventyConfig.addFilter('handleize', handleize);
     eleventyConfig.addFilter('getDateShortString', dateToShortString);
+
+    // -- config --
+    fs.writeFileSync(`${dstDir}/code/config.js`, getConfig(buildEnvironment));
 
     
     // -- build --
@@ -100,5 +104,18 @@ function getMonthString(month) {
         case 11: return "November";
         case 12: return "December";
         default: return "UNKNOWN MONTH";
+    }
+}
+
+
+function getConfig(env) {
+    switch(env) {
+        case "dev":
+            return "const API_BASE_URL = 'http://localhost:7071/api/';";
+        case "prod":
+            return "const API_BASE_URL = 'http://localhost:7071/api/';";
+        default:
+            console.log("NO ENVIRONMENT SPECIFIED");
+            break;
     }
 }
