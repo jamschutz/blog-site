@@ -113,7 +113,7 @@ function getConfig(env) {
         case "dev":
             return "const API_BASE_URL = 'http://localhost:7071/api/';";
         case "prod":
-            return "const API_BASE_URL = 'http://localhost:7071/api/';";
+            return "const API_BASE_URL = 'https://website-commentsapi.azurewebsites.net/api/';";
         default:
             console.log("NO ENVIRONMENT SPECIFIED");
             break;
