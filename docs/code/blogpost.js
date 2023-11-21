@@ -1,5 +1,5 @@
 const API_BASE_URL = 'http://localhost:7071/api'
-const COMMENT_SECTION_CONTAINER_ID = 'Blog-commentsSectionContainer';
+const COMMENT_SECTION_CONTAINER_ID = 'Blog-allCommentsContainer';
 const COMMENT_CONTAINER_CLASS = 'Blog-commentContainer';
 const COMMENT_NAME_CLASS = 'Blog-commentName';
 const COMMENT_DATE_CLASS = 'Blog-commentDate';
@@ -7,8 +7,14 @@ const COMMENT_TEXT_CLASS = 'Blog-commentText';
 const SUBMIT_COMMENT_BTN_ID = 'Blog-submitCommentBtn';
 const SUBMIT_COMMENT_NAME_ID = 'Blog-submitCommentNameField';
 const SUBMIT_COMMENT_TEXT_ID = 'Blog-submitCommentTextField';
+const COMMENT_HEADER_ID = 'Blog-commentsHeader';
 
 function addComments(comments) {
+    if(comments.length === 0) {
+        setHeaderDisplay('none');
+        return;
+    }
+
     let commentContainer = document.getElementById(COMMENT_SECTION_CONTAINER_ID)
 
     // sort comments
@@ -16,10 +22,10 @@ function addComments(comments) {
         lhs = new Date(x['createdDt']);
         rhs = new Date(y['createdDt']);
         if (lhs < rhs) {
-            return -1;
+            return 1;
         }
         if (lhs > rhs) {
-            return 1;
+            return -1;
         }
         return 0;
     });
@@ -32,6 +38,11 @@ function addComments(comments) {
             commentContainer.appendChild(getNewCommentElement(comment));
         }        
     });
+}
+
+function setHeaderDisplay(display) {
+    let commentHeader = document.getElementById(COMMENT_HEADER_ID);
+    commentHeader.style.display = display;
 }
 
 function getNewCommentElement(comment) {
@@ -88,21 +99,15 @@ async function getComments() {
 
 
 function getDateString(date) {
-    console.log(typeof date);
-    // Request a weekday along with a long date
     const options = {
         year: "numeric",
         month: "numeric",
         day: "numeric",
-        timeZone: 'UTC'
+        hour: 'numeric',
+        minute: 'numeric'
     };
-    let dateString = date.toLocaleString('en-US', options);
-    console.log(dateString)
-    let year = date.split('-')[0];
-    let month = date.split('-')[1];
-    let day = date.split('-')[2].split('T')[0];
-    
-    return `${month}-${day}-${year}`;
+    let dateString = new Date(date).toLocaleString('en-US', options);    
+    return dateString.replaceAll('/', '-');
 }
 
 
@@ -111,32 +116,35 @@ async function submitComment() {
     let commenterName = document.getElementById(SUBMIT_COMMENT_NAME_ID);
     let commentText = document.getElementById(SUBMIT_COMMENT_TEXT_ID);
 
-    if(commentText.innerText === null || commentText.innerText.trim() === '') {
+    if(commentText.value === null || commentText.value.trim() === '') {
+        console.log('')
         return;
     }
 
     let response = await fetch(`${API_BASE_URL}/InsertComment?url=${window.location}`, { 
         headers: {
-            'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
         method: "POST",
         body: JSON.stringify({
-            text: commentText.innerText, 
-            submittedBy: commenterName.innerText
+            text: commentText.value, 
+            submittedBy: commenterName.value
         })
     });
-    console.log('sent it in');
 
+    // add to comment container
     let commentContainer = document.getElementById(COMMENT_SECTION_CONTAINER_ID);
-    commentContainer.appendChild(getNewCommentElement({
-        'text': commentText.innerText,
-        'submittedBy': commenterName.innerText,
-        'createdDt': new Date().getTime().toString()
-    }));
+    commentContainer.insertBefore(getNewCommentElement({
+        'text': commentText.value,
+        'submittedBy': commenterName.value,
+        'createdDt': getDateString(new Date().toUTCString())
+    }), commentContainer.firstChild);
 
-    commenterName.innerText = '';
-    commentText.innerText = '';
+    commenterName.value = '';
+    commentText.value = '';
+
+    // make sure header is showing
+    setHeaderDisplay('block');
 }
 
 // on window load

@@ -225,6 +225,13 @@ header a:hover {
     background-color: var(--header-green);
     padding: 15px;
 }
+#Blog-commentsHeader {
+    margin-top: 50px;
+    color: var(--link-purple);
+}
+#Blog-commentsHeader hr {
+    border-top: dotted 4px;
+}
 .Blog-commentInputField input[type="text"], textarea {
     background-color : var(--header-green);
     width: 688px; 
@@ -270,7 +277,7 @@ header a:hover {
     color: var(--link-purple);
 }
 .Blog-commentDate {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 350;
 }
 /* Footer
