@@ -1,1 +1,1 @@
-const API_BASE_URL = 'https://website-commentsapi.azurewebsites.net/api/';
+const API_BASE_URL = 'https://website-commentsapi.azurewebsites.net/api';

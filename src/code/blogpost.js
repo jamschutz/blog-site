@@ -1,4 +1,3 @@
-const API_BASE_URL = 'http://localhost:7071/api'
 const COMMENT_SECTION_CONTAINER_ID = 'Blog-allCommentsContainer';
 const COMMENT_CONTAINER_CLASS = 'Blog-commentContainer';
 const COMMENT_NAME_CLASS = 'Blog-commentName';
