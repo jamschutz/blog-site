@@ -12,6 +12,9 @@ but also very fun to execute with craft what has been pre-ordained. also interes
 also magical to play with an orchestration. even _less_ allowance for expression, but gains the beauty of collective thrill, or snapping into harmony with fifty different voices, of following the lead of someone who you trust to take you somewhere memorable
 - i suppose i feel that all play, as kanaga says, is becoming "the connective tissue of things," willing links in a sprawling system. some forms of play have us stretching farther, elastic, over much more ground.
 
+### random asides
+- thinking of de koven: that games are deconstructible in service of play. but i don't think that de koven is saying _play_ is the ultimate goal -- it's joy, pleasure, interest, beauty. these are things we can find through play, but play of many forms. de koven's deconstructibility is about listening to our hearts and minds while we play and wondering if we are still interested or excited by the actions our games ask us to do. if the answer is yes, then proceed! but if the answer is no, then diverge, make fun, find the beauty. i don't think de koven is arguing for all games to be at the whims of total personal play. in fact, de koven's tennis chapter is an excellent argument against it, where interesting, fulfilling play is found as a common ground between two people. (here i am sort of on a tangent. need to focus these thoughts of course)
+
 
 ## Music & Games as Shifting Possibility Spaces 
 "the discrete concepts (music, game) themselves being 'meaningless' before they are played in this or any other construction"
@@ -30,6 +33,9 @@ also magical to play with an orchestration. even _less_ allowance for expression
 - "So, these are the two poles of the idea-- (relative) stasis and change. The first, stasis, corresponding to the "possibility space" we're all accustomed to spatializing and theorizing about. The second, _change_, corresponding to the SHIFTING, to the Time aspect of play, its music."
 
 - "The way we each, individually, choose to engage objects in spacetime, describes the curvature of that spacetime, and it will be DIFFERENT for each player, because we are attracted to different things with differing degrees of intensity"
+
+- "as long as the space is forever shifting, the particular instance of it that we are experiencing _right now_ cannot be counted as a mere repetition, and is _always a unique natural occurence_. We must tune into the _play_ experience, to experience even the same computational "game state" as two totally different things when we encounter it at two different times in our life... Allow our body to be the medium..."
+    - i guess this dovetails with lantz's ideas of games as ever shifting / unstable systems of play; that anything can happen therein is part of their magic. true of all play! interesting to feel this on the macro level (minecraft, the world as ever-destructible, reproducible), but also the micro (playing with an orchestra)
 
 
 ## Links still to check out
