@@ -15,6 +15,11 @@ also magical to play with an orchestration. even _less_ allowance for expression
 ### random asides
 - thinking of de koven: that games are deconstructible in service of play. but i don't think that de koven is saying _play_ is the ultimate goal -- it's joy, pleasure, interest, beauty. these are things we can find through play, but play of many forms. de koven's deconstructibility is about listening to our hearts and minds while we play and wondering if we are still interested or excited by the actions our games ask us to do. if the answer is yes, then proceed! but if the answer is no, then diverge, make fun, find the beauty. i don't think de koven is arguing for all games to be at the whims of total personal play. in fact, de koven's tennis chapter is an excellent argument against it, where interesting, fulfilling play is found as a common ground between two people. (here i am sort of on a tangent. need to focus these thoughts of course)
 
+- i think the focus is on play and player agency -- how play's interest is not reliant on agency
+- can relate to the silly discussion of "linear games" and the gradual dirty stain that entire design discipline has been tarred with. now we are stuck with a billion different horribly dull open world games that given you PURE FREEDOM to die or boredom anywhere you prefer in A HUGE OPEN WORLD.
+
+- play being interesting comes down to: is my role here _meaningful_? (this is broadly defined)
+
 
 ## Music & Games as Shifting Possibility Spaces 
 "the discrete concepts (music, game) themselves being 'meaningless' before they are played in this or any other construction"
