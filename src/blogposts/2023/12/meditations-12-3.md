@@ -1,0 +1,71 @@
+---
+layout: 'blogpost.liquid'
+title: Sunday paper - 2 much Taiko (man's folly)
+img: /img/sunday-paper-title-img.jpg
+date: 2023-12-03
+tags: sunday-paper
+---
+<!-- INTRO -->
+{% capture intro %}
+Took a break last week for Thanksgiving, but I am back in full force! Here's what I got excited about this last week (and change).
+{% endcapture %}
+{% render "blog/paragraphs.liquid" text: intro %}
+
+
+{% capture frogup %}
+There's a niche subgenre of walking sims where the environment is framed by 2D images you can push through to "move" between environments — games like clyde's <a href="https://clyde.itch.io/dont-bite-into-the-seed">don't bite into the seed</a> or Lilith Zone's <a href="https://lilithzone.itch.io/apt-map">Apt. Map</a>. I really love these games. I love the feel of pushing through borders, watching layers of a place peel back. This is another great entry in the genre (and not even a walking sim, to boot).
+
+In this game you are a frog going up (as the name suggests). Unlike the other games mentioned, it's really hard to distinguish between layers in this game. Rows and rows of leaves and floating text jut across each other. A lot of the work is figuring out where the next ledge is to jump up to, which requires sifting through the debris. For me it felt like a process of continual disorientation giving way to direction, before leaping triumphantly back into the arms of disorientation. I quite like the feeling of having to stop and think for a minute about where I am, what my goal is, how to get from one to the other. I loved this game.
+{% endcapture %}
+{% render 'meditations/section.liquid' 
+    gameTitle: "Frog Up"
+    author: 'JohnLee Cooper'
+    gameLink: 'https://ergman.itch.io/frog-up'
+    authorLink: 'https://ergman.itch.io/'
+    img: '/img/meditations/12032023/FrogUp.PNG'
+    text: frogup
+%}
+
+
+{% capture roommap %}
+Speaking of Lilith Zone! For me she is one of those developers who can basically do no wrong. A friend mentioned he had played this and so I immediately went to play it myself. It's part of her Map series so, like Frog Up, it sees you pushing through borders to see new worlds. But where Apt. Map is expansive, this is beautifully intimate. The whole thing takes place in a room (sort of) and instead of pushing out, you push in, diving into recursively nested diorama worlds. The degree of detail and action in the different worlds is quite striking — swimming between worlds that are all bustling with their own lives. The shifting sense of scale, too, is pretty amazing. I thought I understood how it worked until a friend told me to scroll down to see a 10 paragraph explanation complete with bulletted math equations. For now, I am happy to just glide through its beauty without ever fully understanding.
+{% endcapture %}
+{% render 'meditations/section.liquid' 
+    gameTitle: "Room Map"
+    author: 'Lilith Zone'
+    gameLink: 'https://lilithzone.itch.io/room-map'
+    authorLink: 'https://lilithzone.itch.io/'
+    img: '/img/meditations/12032023/RoomMap.PNG'
+    text: roommap
+%}
+
+
+{% capture emotions %}
+This is a slideshow game. It contains 10 slides of visual nonsense (of the "lorem ipsum" variety), and the instructions are to set the presentation to flip to the next slide after every second. Once the slideshow has begun, the nonsense text will begin to shift and flow almost like water. You're supposed to "select a stream that seems good to you in mind...stare at it," and then find "the source that causes it to flow." 
+
+The way language has burrowed into our culture to claim many flags of aesthetic beauty is something I find quite lovely. Of course, language has linguistic / cognitive beauty, but when written down it contains visual beauty as well (and when typed out, spatial beauty). This is a game that plays with the aesthetics of language, the beauty of words on a page, and the affects they stir in us (whether we understand those words or not). In that way, this game reminds me of Hao's <a href="https://haoliao.itch.io/next-step">bike game</a>, or an art series my roomate did called <a href="https://ryanericksonart.com/the-shape-of-language">The Shape of Language</a>.
+
+But that's really just a small part of this game. In a surprising way, it feels almost like sitting by a river, catching all the nuances and dramas of the natural world, drifting in and out of focus in a sort of stateless existence. There's also a beautiful quality to a game that slips out from under you by your own actions. Having the slides zip by a second at a time is quite a rapid pace of change — it's hard for me to keep up! Even if I'm just following instruction, the knowledge that <i>I</i> am the one who set the slide to flow that fast makes for a very interesting feeling, entangling me in the process, and forcing me to hold to the rules despite full ability to change them.
+{% endcapture %}
+{% render 'meditations/section.liquid' 
+    gameTitle: "Emotions come like streams"
+    author: 'Alex: z_z'
+    gameLink: 'https://alexz-z-z.itch.io/emotions-come-like-streams'
+    authorLink: 'https://alexz-z-z.itch.io/'
+    img: '/img/meditations/12032023/emotions.jpg'
+    text: emotions
+%}
+
+{% capture taiko %}
+If you thought that the subtitle for this post signaled that I had fallen out of love with <i>Taiko no Tatsujin</i> you would be WRONG. It is so fun. We got a second taiko drum and as it turns out the only thing better than <i>Taiko no Tatsujin</i> is two player <i>Taiko no Tatsujin</i>. The feeling of your friend, your trusted drum partner, standing drum-squat beside you, sticks to the heavens, and <i>whacking</i> out the <a href="https://www.youtube.com/watch?v=TrL9d4GrIGA"><i>Totoro</i> anthem</a> — what more could you want in this whole wide world? The earth rumbling force of rhythmic beauty — the splintered eruptions of plastic taikos being pummeled — the heartbeat harmonies of two friends and a drum — the DREAM of TAIKO made REAL — wow. What a game.
+
+It is with a heavy heart, though, that I have to confess that we have (only two weeks in, it's true, I see the tragedy) broken one of the drums (a life that was never built to last the golden flame of its existence). We are sending it back for a replacement. LONG LIVE TAIKO!!!!!!!!!
+{% endcapture %}
+{% render 'meditations/section.liquid' 
+    gameTitle: "Taiko no Tatsujin: Drum 'n' Fun!"
+    author: 'DOKIDOKI GROOVE WORKS'
+    gameLink: 'https://www.nintendo.com/us/store/products/taiko-no-tatsujin-drum-n-fun-switch/'
+    authorLink: ''
+    img: '/img/meditations/12032023/taiko.jpg'
+    text: taiko
+%}
