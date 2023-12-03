@@ -22,7 +22,7 @@ In this game you are a frog going up (as the name suggests). Unlike the other ga
     author: 'JohnLee Cooper'
     gameLink: 'https://ergman.itch.io/frog-up'
     authorLink: 'https://ergman.itch.io/'
-    img: '/img/meditations/12032023/FrogUp.PNG'
+    img: '/img/meditations/12032023/FrogUp.png'
     text: frogup
 %}
 
@@ -35,7 +35,7 @@ Speaking of Lilith Zone! For me she is one of those developers who can basically
     author: 'Lilith Zone'
     gameLink: 'https://lilithzone.itch.io/room-map'
     authorLink: 'https://lilithzone.itch.io/'
-    img: '/img/meditations/12032023/RoomMap.PNG'
+    img: '/img/meditations/12032023/RoomMap.png'
     text: roommap
 %}
 
