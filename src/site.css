@@ -37,7 +37,7 @@
     --background-blue: #99d9ea;
     --link-purple: #8553f7;
     --header-green: #b7fb94;
-    --medium-gray: #575757;
+    --medium-gray: #535353;
 
 }
 
@@ -410,14 +410,14 @@ footer hr {
 .Archive-yearHeader {
     font-size: 24px;
     font-weight: 700;
-    color: #535353;
+    color: var(--medium-gray);
     margin: auto;
 }
 
 .Archive-monthHeader {
     font-size: 18px;
     font-weight: 700;
-    color: #535353;
+    color: var(--medium-gray);
 }
 
 .Archive-monthContainer {
