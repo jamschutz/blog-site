@@ -15,12 +15,12 @@ layout: 'base.liquid'
 {% render 'blog/header.liquid' text: 'Recent posts:' customCss: 'margin-top: 50px;' %}
 
 <div class="Archive-container">
-    
+
 {% assign blog_posts = collections.blog | sort: 'date' | reverse %}
-{% for blog in blog_posts %}
+{% for blog in blog_posts limit: 10 %}
     <div class="Archive-link">
-        <a href="/{{ blog.data.title | handleize }}">[{{ blog.data.date | getDateShortString }}] {{ blog.data.title }}</a>
+        <span>&#9758; </span><a href="/{{ blog.data.title | handleize }}">{{ blog.data.title }}</a>
     </div>
-{% endfor %} 
+{% endfor %}
 
 </div>

@@ -20,6 +20,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("getDateString", dateToString);
     eleventyConfig.addFilter('handleize', handleize);
     eleventyConfig.addFilter('getDateShortString', dateToShortString);
+    eleventyConfig.addFilter('getArchiveYears', getArchiveYears);
+    eleventyConfig.addFilter('getArchiveMonths', getArchiveMonths);
+    eleventyConfig.addFilter('getArticlesForMonth', getArticlesForMonth);
 
     // -- config --
     fs.writeFileSync(`${dstDir}/code/config.js`, getConfig(buildEnvironment));
@@ -118,4 +121,59 @@ function getConfig(env) {
             console.log("NO ENVIRONMENT SPECIFIED");
             break;
     }
+}
+
+
+function getArchiveYears(posts) {
+    let years = new Set();
+    let dates = posts.map(post => post.date);
+
+    dates.forEach(date => {
+        let year = dateToShortString(date).split('-')[2];
+        if(years.has(year)) {
+            // skip
+        }
+        else {
+            years.add(year);
+        }
+    });
+
+    return years;    
+}
+
+
+function getArchiveMonths(posts, year) {
+    let months = new Set();
+    let dates = posts.map(post => post.date);
+    
+    dates.forEach(date => {
+        let dateComponents = dateToString(date);
+        let articleYear = dateComponents.split(',')[1].trim();
+        let month = dateComponents.split(' ')[0];
+
+        console.log(articleYear);
+        console.log(month);
+        
+        if(articleYear == year && !months.has(month)) {
+            months.add(month);
+        }
+    });
+
+    return months;    
+}
+
+
+function getArticlesForMonth(posts, year, month) {
+    let articles = [];    
+    posts.forEach(post => {
+        let date = post.date;
+        let dateComponents = dateToString(date);
+        let articleYear = dateComponents.split(',')[1].trim();
+        let articleMonth = dateComponents.split(' ')[0];
+        
+        if(articleYear == year && articleMonth == month) {
+            articles.push(post);
+        }
+    });
+    return articles;
 }
