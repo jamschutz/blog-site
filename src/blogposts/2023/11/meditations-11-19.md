@@ -1,9 +1,9 @@
 ---
 layout: 'blogpost.liquid'
-title: Sunday meditation - Taiko forever!!!!!!!
+title: Sunday paper - Taiko forever!!!!!!!
 img: /img/meditations/11192023/taiko.jpg
 date: 2023-11-19
-tags: meditation
+tags: sunday-paper
 ---
 <!-- INTRO -->
 {% capture intro %}

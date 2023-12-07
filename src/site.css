@@ -37,7 +37,7 @@
     --background-blue: #99d9ea;
     --link-purple: #8553f7;
     --header-green: #b7fb94;
-    --medium-gray: #575757;
+    --medium-gray: #535353;
 
 }
 
@@ -398,11 +398,30 @@ footer hr {
 
 
 .Archive-container {
-    font-size: 22px;
-    font-family: 'Monospace-regular';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Monospace-regular'; */
 }
 .Archive-container a:hover {
-    font-family: 'Monospace-regular';
+    /* font-family: 'Monospace-regular'; */
+}
+
+.Archive-yearHeader {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--medium-gray);
+    margin: auto;
+}
+
+.Archive-monthHeader {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--medium-gray);
+}
+
+.Archive-monthContainer {
+    margin-bottom: 15px;
 }
 
 

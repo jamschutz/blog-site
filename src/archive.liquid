@@ -7,12 +7,25 @@ layout: 'base.liquid'
 </div>
 
 <div class="Archive-container">
-    
-{% assign blog_posts = collections.blog | sort: 'date' | reverse %}
-{% for blog in blog_posts %}
-    <div class="Archive-link">
-        <a href="/{{ blog.data.title | handleize }}">[{{ blog.data.date | getDateShortString }}] {{ blog.data.title }}</a>
-    </div>
-{% endfor %} 
+
+{% assign sorted_posts = collections.blog | sort: 'date' | reverse %}
+{% assign years = sorted_posts | getArchiveYears %}
+{% for year in years %}
+    <div class="Archive-yearHeader">{{ year }}</div>
+    {% assign months = sorted_posts | getArchiveMonths: year %}
+    {% for month in months %}
+        <div class="Archive-monthContainer">
+            <div class="Archive-monthHeader">{{ month }}</div>
+            {% assign blog_posts = sorted_posts | getArticlesForMonth: year, month %}
+            {% assign blog_posts = blog_posts %}
+            {% for blog in blog_posts %}
+                <div class="Archive-link">
+                    <span>&#9758; </span><a href="/{{ blog.data.title | handleize }}">{{ blog.data.title }}</a>
+                </div>
+            {% endfor %} 
+        </div>
+        
+    {% endfor %}
+{% endfor %}
 
 </div>
