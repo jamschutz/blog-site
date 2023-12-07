@@ -43,5 +43,23 @@ also magical to play with an orchestration. even _less_ allowance for expression
     - i guess this dovetails with lantz's ideas of games as ever shifting / unstable systems of play; that anything can happen therein is part of their magic. true of all play! interesting to feel this on the macro level (minecraft, the world as ever-destructible, reproducible), but also the micro (playing with an orchestra)
 
 
+# Miguel Sicart, Against Procedurality
+- "Much like Enlightenment, then, proceduralism is a determinist, perhaps even totalitarian approach to play; an approach that defines the action prior to its existence, and denies the importance of anything that was not determined before the act of play, in the system design of the game."
+
+- "Proceduralism, with its call for systems at the core of the essence of games and its disregard for expressive or ineffective play, turns the act of playing a game into a labor-like action, into work towards an externally decided, predetermined, and rational outcome designed by others than the players. Play becomes _external_ to the player and the play context."
+
+- "Play is the experience of a game by a player, and play is a creative, appropriative process of understanding and engaging in a dialectic relationship with the game system and with other players (DeKoven, 2002). Play is appropriation, creation, expression, and to a certain extent submission to the rules of a game. Play is everything about a player engaged in a game, and less about the rules of such game."
+
+- "as DeKoven puts it: "On the one hand we have the playing mind -innovative, magical, boundless. On the other is the gaming mind - concentrated, determined, intelligent. And on the hand that holds them both together we have the notion of playing well" (2002, p. 49)."
+
+- "Games structure play, facilitate it by means of rules. This is not to say that rules determine play: they focus it, they frame it, but they are still subject to the very act of play. Play, again, is an act of appropriation of the game by players. "
+    - this is _true_ but also some games simply do not work if you are not fully symbiotic with their rules! 
+
+- "The type of conditioned play derived from strict proceduralist arguments can be defined as instrumental play, as the process of playing for other means, as play subordinated to the goals and rules and systems of the game. In this sense, play is subordinate to reason, to the logic of achievement and progression externally determined by the player."
+    - _this_ is a big part of where i disagree. instrumental play can be _emotive_!
+
+- "The player is instrumentally rational, engaging with play with the idea of, by being exposed to procedural rhetoric, become educated or persuaded. But play is not that simple, as play is not exclusively a child of reason. Play is activity between rite and reason, between rationality and emotion - and as such, it cannot, and ought not to be instrumentalized."
+
+
 ## Links still to check out
 http://rougesfoam.blogspot.com/2012/06/musical-radicalism-beyond-sonic-talk-at.html
