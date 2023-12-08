@@ -46,7 +46,11 @@ also magical to play with an orchestration. even _less_ allowance for expression
 # Miguel Sicart, Against Procedurality
 - "Much like Enlightenment, then, proceduralism is a determinist, perhaps even totalitarian approach to play; an approach that defines the action prior to its existence, and denies the importance of anything that was not determined before the act of play, in the system design of the game."
 
+- "The type of conditioned play derived from strict proceduralist arguments can be defined as instrumental play, as the process of playing for other means, as play subordinated to the goals and rules and systems of the game. In this sense, play is subordinate to reason, to the logic of achievement and progression externally determined by the player."
+
 - "Proceduralism, with its call for systems at the core of the essence of games and its disregard for expressive or ineffective play, turns the act of playing a game into a labor-like action, into work towards an externally decided, predetermined, and rational outcome designed by others than the players. Play becomes _external_ to the player and the play context."
+
+- "This perspective has strong ethical, political and cultural implications. By depriving players of their capacity to express themselves through play, and by turning play into an instrumental action, the proceduralists are ignoring the acts of appropriation and configuration that constitute the players’ expression"
 
 - "Play is the experience of a game by a player, and play is a creative, appropriative process of understanding and engaging in a dialectic relationship with the game system and with other players (DeKoven, 2002). Play is appropriation, creation, expression, and to a certain extent submission to the rules of a game. Play is everything about a player engaged in a game, and less about the rules of such game."
 

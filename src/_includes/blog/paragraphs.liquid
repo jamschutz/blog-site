@@ -1,7 +1,7 @@
 {% assign paragraphs = text | newline_to_br | split: '<br />' %}
 
 {% for paragraph in paragraphs %}
-    <div class="Blog-paragraph">
+    <div class="Blog-paragraph" style="{{ customCss }}">
         {{ paragraph }}
     </div>
 {% endfor %}
