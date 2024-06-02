@@ -1,6 +1,6 @@
 ---
 layout: 'blogpost.liquid'
-title: On Cinematic Games
+title: On Cinematic Games, pt. 1
 img: /img/cinematic-games/Harrison-Ford-Plays-Uncharted-3.jpg
 date: 2024-06-02
 tags: 
@@ -8,9 +8,18 @@ tags:
 - design
 ---
 
+{% capture intro %}
+Lately, I've found myself playing a lot of cinematic games. It's a genre of games that I think has become somewhat maligned in the years between now and 2007 or so. And a lot of this is fair! Who among us has not weathered the inanity of a thousandth vapid cutscene, or felt our hearts dropping to the rhythms of pillarboxes encroaching — certainly, many a media crime has been committed in the name of the "cinematic." But I've found myself something of a meek defender of the namesake ("it's not all bad!" I say to an empty theater). In any case, I feel the term is not totally understood. We feel when a game lapses into the cinematic, but I haven't found any essays that fully articulate what exactly is _happening_, what makes for a "cinematic game?" So I wanted to attempt to pin it down! This will be the first part of a two-part series — here I want to try and explore what exactly is a cinematic game, and in part 2 I want to try and articulate where, how, and why I think these techniques can work (and not work). Something like theory (pt. 1) and practice (pt. 2), but not exactly. Okay here goes...
+{% endcapture %}
+{% render "blog/paragraphs.liquid" text: intro %}
 
+{% render "divider.liquid" %}
 
+<!-- <div class="Blog-imageFullWidth">
+    <img src="/img/cinematic-games/king-kong.jpg"></img>
+</div>-->
 
+{% render "blog/header.liquid" text: 'Cinematic Games: What are they (...)' %} 
 
 
 
@@ -26,7 +35,7 @@ cinematic not clearly understood: what is it?
 
 - about immersion of *character* rather than immersion of *place*
 
-- prestige
+- prestige, spectacle
 
 - plot (story games)
 
@@ -39,7 +48,7 @@ cinematic not clearly understood: what is it?
     - showing feelings through lighting, or camera
     - closeness to the psychology of the character, which of course risks tension in how we view ourselves in our own play as the character
 
-- uses camera, lighting, blocking to convey the psychology of the character
+- uses camera, lighting, blocking, edits to convey the psychology of the character
     - Cyberpunk 2077 (blocking feels coreographed! even if it's not, blocking is deliberate to make for good composition; camera is restricted; movement is disabled; etc)
 
     - Beginner's Guide walking backwards: not cinematic because it doesn't give you anything about the character
