@@ -1,0 +1,90 @@
+---
+layout: 'blogpost.liquid'
+title: On Cinematic Games
+img: /img/cinematic-games/Harrison-Ford-Plays-Uncharted-3.jpg
+date: 2024-06-02
+tags: 
+- essay
+- design
+---
+
+
+
+
+
+
+
+
+
+
+<!-- 
+outline: 
+
+cinematic not clearly understood: what is it?
+
+- in some ways i wonder if it's something of a misnomer. something is "cinematic" in the sense that tarvkosky is painterly, or nuri bilge ceylan is photographic (or ozu) -- perhaps Anthony Mann could be said to be like a draughtsman, with the focus on light and form, and so on and so forth
+
+- about immersion of *character* rather than immersion of *place*
+
+- prestige
+
+- plot (story games)
+
+- control taken away
+    - metagaming, to play the cinematic is to cede those possibilities and relinquish control, consent to it, etc
+    - well played game, to play well is to do this (maybe mention in metal gear / 30 flights further down)
+
+- cinematic as externalization of a character's internality, their psychology
+    - linda hutcheon's tell, show, interact
+    - showing feelings through lighting, or camera
+    - closeness to the psychology of the character, which of course risks tension in how we view ourselves in our own play as the character
+
+- uses camera, lighting, blocking to convey the psychology of the character
+    - Cyberpunk 2077 (blocking feels coreographed! even if it's not, blocking is deliberate to make for good composition; camera is restricted; movement is disabled; etc)
+
+    - Beginner's Guide walking backwards: not cinematic because it doesn't give you anything about the character
+    - other examples outside cinematic: architectural games (Hitman, Control)
+
+    - interesting to note here that other media do this! even things like JJ Abrams lens flares are pointing explicitly at technical limitations of other media, Brian Eno essay on attachment to this, etc etc
+
+    - also can note the corruption of form that happens here (close up, one take, these things lose their "meaning" when adapted)
+
+- why make these games then?
+    - the fact that they only begin to appear in the 90s tells us something about the reasons. for one visual fidelity of cinema can be recreated. for another a generation of creators self consciously making something as a "true work of art," borrowing cultural capital of film and trying to rub it off on something as culturally low and pitiable as a videogame.
+
+    - take half life 2. in these scenes characters are going through things and feelings; games hesitant to externalize of declare what a character is feeling: supposed to be derived through play not story. but when making storytelling games this is difficult! unproductive tension between story and play in half life 2, imo. versus metal gear 5 where important story beats that inform everything surrounding it take control away from player.
+        - also want to bring up arkham asylum -- standing and listening is boring! later, in arkham knight, when you turn and the scene changes, much better storytelling. here the drama is through play and interaction, which "justifies" keeping the player in control (there is something to do, to be gained, to play a part in!)
+        - versus in half life 2 where you are "out of the scene" but are mysteriously left in control of your character. could of course argue that it's fun to stomp on their faces and run streaking in circles flailing wildly at wooden boxes while they're having a serious conversation! but i feel the game either needs to lean into that and emphasize the goofiness of the scenario, or else find a way to make play integral to the storytelling there, or else just use a cutscene! people use them for a reason, after all
+
+- examples of cinematic games
+    - Metal Gear 5. playing through cinematic could be called "theatrical" in the sense that its participatory, told through being a part of the play. But actually it's on rails. More like an interactive pre authored cinema scene. Here, the tension is not "can I perform this?" but rather "what will happen next?" By placing you the player as the central actor the screen's unraveling takes on new meaning: it's never clear when the game's control will give way to the player's and in this way a sense of play, ownership, and tension is created. Also well-played game idea here: playing this well is being in tune with what the game wants and consenting to play along. interesting to note that as the intro goes along the cinematic gives way to "gaminess." as you get more and more control of the character you feel less and less of the "cinematic" -- yet this is not to say the cinematic goes away
+
+    - 30 flights line is more blurred: "what will happen next" is partnered with "can I perform this," but also the urgency of the scene, the drama will not work if you don't play your part well, and in this way performing well and "correctly" becomees part of the thrill, being a good actor and player within a play space whose success is reliant on something more than ourselves alone.
+
+    - uncharted. "can i perform this" is much bigger question. all of these have their own qualities.
+
+    - Cyberpunk 2077 scene
+
+    - assassin's creed 2 opening.
+
+
+
+when does the cinematic work / not work?
+
+- when disruption is predictable, and serves a clear purpose, it's okay (Dark Souls: amps you up for a big fight, serves the drama!; versus Dragon's Dogma, which takes the life out of the scene, makes for awkward pacing, for me doesn't serve drama, or perhaps it's that the fight doesn't live up to the expectation which makes the whole thing feel a little limp and silly)
+
+- when it's clear that what's being cinemafied is *better* cinemafied (Uncharted cutscenes, Assassin's Creed 2 intro, even Metal Gear 5 helicopter cutscene with Quiet taking control -- you don't ever have control of the scene and so it makes sense (though imo a little too long...))
+
+- can bring up well played game again that the game should respect the player here as an autonomous agent! curious how to define when this works...
+
+- you need to decide if your game is a story game or not a story game..........don't waste my time!! cutscenes better move the drama forward in some way! (Assinassin's Creed Odyssey)
+
+- should still always serve the play. assassin's creed adapting filmic dialog to action, talking with Da Vinci in Venice and walking in a cirlce. West Wing
+
+
+
+
+for something like Star Wars or Dragon's Dogma, these cut scenes eat up the scene's drama, AND the action in the cutscene is the action you'd do with gameplay -- in short, when i watch these cutscenes, i think, "i'd rather be playing this than watching this." compare to e.g. the snake scene in sekiro
+
+
+-->
