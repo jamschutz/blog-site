@@ -9,7 +9,7 @@ tags:
 ---
 
 {% capture intro %}
-Lately, I've found myself playing a lot of cinematic games. It's a genre of games that I think has become somewhat maligned in the years between now and 2007 or so. And a lot of this is fair! Who among us has not weathered the inanity of a thousandth vapid cutscene, or felt our hearts dropping to the rhythms of pillarboxes encroaching — certainly, many a media crime has been committed in the name of the "cinematic." But I've found myself something of a meek defender of the namesake ("it's not all bad!" I say to an empty theater). In any case, I feel the term is not totally understood. We feel when a game lapses into the cinematic, but I haven't found any essays that fully articulate what exactly is _happening_, what makes for a "cinematic game?" So I wanted to attempt to pin it down! This will be the first part of a two-part series — here I want to try and explore what exactly is a cinematic game, and in part 2 I want to try and articulate where, how, and why I think these techniques can work (and not work). Something like theory (pt. 1) and practice (pt. 2), but not exactly. Okay here goes...
+Lately, I've found myself playing a lot of cinematic games. It's a genre of games that I think has become somewhat maligned in the years between now and 2007 or so. And a lot of this is fair! Who among us has not weathered the inanity of a thousandth vapid cutscene, or felt our hearts dropping to the encroachment of pillarbox bars — certainly, many a media crime has been committed in the name of the "cinematic." But I've found myself something of a meek defender of the namesake ("it's not all bad!" I say to an empty theater). In any case, I feel the term is not totally understood. We feel when a game lapses into the cinematic, but I haven't found anything that fully articulates what exactly is _happening_, what makes for a "cinematic game?" So I wanted to attempt to pin it down! This will be the first part of a two-part series — here I want to try and explore what exactly is a cinematic game, and in part 2 I want to try and articulate where, how, and why I think these techniques can work (and not work). Something like theory (pt. 1) and practice (pt. 2), but not exactly. Okay here goes...
 {% endcapture %}
 {% render "blog/paragraphs.liquid" text: intro %}
 
@@ -19,7 +19,35 @@ Lately, I've found myself playing a lot of cinematic games. It's a genre of game
     <img src="/img/cinematic-games/king-kong.jpg"></img>
 </div>-->
 
-{% render "blog/header.liquid" text: 'Cinematic Games: What are they (...)' %} 
+{% capture pt1 %}
+The obvious first stop for defining a cinematic game is one that's trying to emulate cinema in some way. In a <a href="https://www.gamespot.com/articles/qanda-naughty-dog-on-uncharted/1100-6181783/">2007 interview with GameSpot</a>, Naughty Dog's copresident Evan Wells said the goal was to "make you feel like you're starring in a big-budget summer blockbuster...you can feel like you're blurring that line and feel like you're in a movie." The goal, at least for Naughty Dog, is to make something like a playable movie. Remember those _Indiana Jones_ films you loved — what if you could be in them? I think this is a pretty good starting point. The goal is to be _immersed_ in something, to be pulled into the cinematic worlds we've been watching in theaters, living rooms, smart phones and concert halls, and inhabit it with videogame goggles. But more than that — more than just existing in these worlds — the goal is to be the "star," to take charge and fortune, to be the central cog of an explosive machine.
+
+It should be noted that cinematic immersion is different from the typical videogame immersion. Usually, the goal is to be immersed in a world. When <a href="https://www.gamespot.com/articles/the-elder-scrolls-iv-oblivion-qanda-overview-character-development-fallout/1100-6111720/">pitching _Oblivion_</a>, Todd Howard said the philosophy for the game was: "Live another life, in another world," or put another way, "'big-world, do-anything'...the player needs a certain size and a large number of choices to really make role-playing feel meaningful." Similarly, during development of _Dragon Age: Inquisition_, <a href="https://www.eurogamer.net/bioware-next-gen-dragon-age-inquisition-will-have-more-immersive-world">producer Cameron Lee excitedly talked</a> of a similar goal: "On gen four you'll see far better graphics and, more importantly, a much more immersive world...We've got these big open worlds. How much content we can put in there and how big that can be and how complex that environment can be can be pushed farther on gen four." The AAA ideal is an endless world that's "lifelike." This means graphical realism, human-like NPCs, never-ending content, and a pantheon of decisions to make role-playing in the world provide no friction against who you want to be. You can be anything in these worlds, go anywhere, do anything — it's like real life, but in a videogame. Compare this to Naughty Dog's desire to "make you feel like you're starring in a big-budget summer blockbuster." Here, the goal is character over world, narrowed feeling over a blank canvas. But even more than this, cinematic immersion maintains the awareness of falsity: to play _Uncharted_ is to play as both Nathan Drake — affable, down-on-his-luck treasure hunter — and his Hollywood actor. We are not to believe that we are in a real-life world, but a _cinematic_ world. We feel the impossibility in the scenarios, the dramatically-dire heroics, the conveniently-tipped scales, and we feel these impossibilities as part of the game's thrill. Indeed, the game is all the more thrilling for these finely-tuned dramatics, for that, after all, is good storytelling. It's good cinema.
+
+
+To put it plainaly, the "cinematic" is about the immersion of a pre-defined _character_. Play _Uncharted_ and you'll feel like Indiana Jones!
+
+This is all well and good, but it doesn't give us a lot to go on. _How_ is that achieved? If simple allusion to a film is enough to make something "cinematic" then <a href="https://www.youtube.com/watch?v=CcYcX0wfJ_0">_E.T._ for the Atari 2600</a> is cinematic...In <a href="https://www.eurogamer.net/uncharted-drakes-fortune-first-impressions">a Eurogamer interviewer</a> leading up to its release, director Amy Hennig said that _Uncharted_ was going for "emotional realism." "Emotional realism," she says, "is about creating characters you can buy into as real, down-to-earth, authentic people. They're not over-drawn, over-the-top cartoon characters."  
+
+
+
+
+
+
+
+
+To begin, it seems to me that the "cinematic" is about immersion of _character_. This stands in constrast to the traditional videogame fantasy of immersion in a world. When <a href="https://www.gamespot.com/articles/the-elder-scrolls-iv-oblivion-qanda-overview-character-development-fallout/1100-6111720/">pitching _Oblivion_</a>, Todd Howard said the philosophy for the game was: "Live another life, in another world," or put another way, "'big-world, do-anything'...the player needs a certain size and a large number of choices to really make role-playing feel meaningful." 
+
+Hennig says _Uncharted_ is going for "emotional realism": "'Emotional realism is about creating characters you can buy into as real, down-to-earth, authentic people. They're not over-drawn, over-the-top cartoon characters,' says Hennig.
+https://www.eurogamer.net/uncharted-drakes-fortune-first-impressions
+
+Eurogamer review: "Uncharted seems to actively want to keep you immersed and entertained instead of wandering around cluelessly clicking or jumping on everything in the vain hope of it being the right path" "the game's ongoing narrative and action feeling like a sequence of vaguely connected set-pieces, most of the chapters in the game flow expertly into one another. At times, this carefully 'directed', orchestrated approach lets the action and adventure ebb and flow in pace, drama and atmosphere."
+https://www.eurogamer.net/uncharted-drakes-fortune-review
+
+
+{% endcapture %}
+{% render "blog/paragraphs.liquid" text: pt1 %}
+
 
 
 
