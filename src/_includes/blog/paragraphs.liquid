@@ -2,6 +2,9 @@
 
 {% for paragraph in paragraphs %}
     <div class="Blog-paragraph">
+        {% assign firstChar = paragraph[0] %}
+        {% assign restOfParagraph = paragraph | slice: 1 %}
+
         {{ paragraph }}
     </div>
 {% endfor %}
