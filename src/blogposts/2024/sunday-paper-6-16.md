@@ -56,12 +56,12 @@ This last game isn't out yet, but can be wishlisted! The premise is "a turn-base
 %}
 
 {% capture crockpot %}
-I wanted to give a shoutout for a game I didn't get a chance to play, but seemed great while watching. Last night I attended its launch party at Boshi's Place. It seems it hasn't been officially released just yet but I think it's supposed to be out any minute now...so keep your eyes peeled!
+I wanted to give a shoutout for a game I didn't get a chance to play, but seemed great while watching. Last night I attended its launch party at Boshi's Place, and I'm keen to play it in my own time. You should too!
 {% endcapture %}
 {% render 'meditations/section.liquid' 
     gameTitle: "Crockpot"
     author: 'emily koonce'
-    gameLink: 'https://koonce.itch.io/'
+    gameLink: 'https://koonce.itch.io/crockpot'
     authorLink: 'https://koonce.itch.io/'
     img: '/img/meditations/06162024/crockpot.jpg'
     text: crockpot
