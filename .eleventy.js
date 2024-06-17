@@ -150,9 +150,6 @@ function getArchiveMonths(posts, year) {
         let dateComponents = dateToString(date);
         let articleYear = dateComponents.split(',')[1].trim();
         let month = dateComponents.split(' ')[0];
-
-        console.log(articleYear);
-        console.log(month);
         
         if(articleYear == year && !months.has(month)) {
             months.add(month);
