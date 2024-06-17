@@ -23,7 +23,7 @@ But more than anything these games are a delight. Consistently funny, strange, s
     author: 'everythingstaken'
     gameLink: 'https://www.glorioustrainwrecks.com/node/10727'
     authorLink: 'https://www.glorioustrainwrecks.com/user/19155'
-    img: '/img/meditations/06162024/103.png'
+    img: '/img/meditations/06162024/103.PNG'
     text: oneHundred
 %}
 
