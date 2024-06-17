@@ -12,11 +12,11 @@ For one reason or another I've fallen off on this, but I'd like to get back into
 {% render "blog/paragraphs.liquid" text: intro %}
 
 {% capture oneHundred %}
-A game of 100 three-second one-button minigames. To me, Blake Andrews is a virtuoso of game feel — everything they do is so textured and tactile, and operating in a space that feels wholly its own. To play through this rapid-fire collection is to feel a vast range of textures and moods. Mostly the ideas are scattered and disconnected, though occassionally small ideas will build on each other (most notably in the Theo the Cat sequence, which I will not spoil here). 
+A game of 100 three-second one-button minigames. To me, Blake Andrews is one of the best there is at game feel — everything they do is so textured and tactile, and operating in a space that feels wholly its own. To play through this rapid-fire collection is to feel a vast range of textures and moods. Mostly the ideas are scattered and disconnected (in a good way!), though occassionally small ideas will build on each other (most notably in the Theo the Cat sequence, which I will not spoil here). 
 
-This is a game that feels difficult to put into words for me! Part of the game's urgency is in its vastness (100 games! all different!). It's quite striking to fly through so many ideas, similar to the effect of a one-take in film, or a diabolic etude in music: the artist's craft is so forcefully on display that you feel their presence in a way. There's an awe to what they've taken on and accomplished. But here that sense is coupled with a flippant irreverance. I feel each of these games is wonderful, but their strict three-second timer lops any "elegance" off as you stutter between ideas at a break kneck pace. More than this, there's an impossible charm to the scenes' quiet mundanity: sleeping cats, cash for gold billboards, dwindling soap dispensers. In an age of "content creation" where everything feels painted over and curated, thank god for the elevation of these forgotten moments.
+This is a game that feels difficult to put into words for me! Part of the game's urgency is in its vastness (100 games! all different!). It's quite striking to fly through so many ideas, similar to the effect of a one-take in film, or a diabolic etude in music: the artist's craft is so forcefully on display that you feel their presence in a way. There's an awe to what they've taken on and accomplished. But here that sense is coupled with a flippant irreverance. I feel each of these games is wonderful, but their strict three-second timer lops any "elegance" off as you stutter between ideas at a break kneck pace. More than this, there's an impossible charm to the scenes' quiet mundanity: sleeping cats, cash for gold billboards, dwindling soap dispensers. In the oft-talked-about age of instagramification where everything feels painted over and curated, it's a blessing to see the elevation of these forgotten moments.
 
-But more than anything these games are a delight. Consistently funny, strange, surprising, it needs to be played to be felt. Play it!
+But more than anything these games are a delight. Consistently funny, strange, surprising, it needs to be played to be felt (and I haven't even mentioned <a href="https://lillyan.bandcamp.com/album/100-ost">the music</a>). Play it!
 {% endcapture %}
 {% render 'meditations/section.liquid' 
     gameTitle: "100"
@@ -56,7 +56,7 @@ This last game isn't out yet, but can be wishlisted! The premise is "a turn-base
 %}
 
 {% capture crockpot %}
-One final shoutout for a game I didn't get a chance to play, but seemed great while watching. Last night I attended its launch party at Boshi's Place. It seems it hasn't been officially released just yet but I think it's supposed to be out any minute now...so keep your eyes out!
+I wanted to give a shoutout for a game I didn't get a chance to play, but seemed great while watching. Last night I attended its launch party at Boshi's Place. It seems it hasn't been officially released just yet but I think it's supposed to be out any minute now...so keep your eyes peeled!
 {% endcapture %}
 {% render 'meditations/section.liquid' 
     gameTitle: "Crockpot"
@@ -65,4 +65,16 @@ One final shoutout for a game I didn't get a chance to play, but seemed great wh
     authorLink: 'https://koonce.itch.io/'
     img: '/img/meditations/06162024/crockpot.jpg'
     text: crockpot
+%}
+
+{% capture middlemarch %}
+Okay it's not a game but I have been obsessing over it. Stunningly beautiful, and funny. George Eliot has an amazing capacity for reaching into the mind of a character with searching clarity. Everyone in this novel feels so alive, and complex, each one dotted with their own pecularities and hang ups. It has a sprawling cast, and it roams among the minds of all of them, never settling into a perspective, but placing each one alongside the others. The result is a novel that feels both vast and intimate, and it seems to be about everything: the eye-opening beauty, pain, and absurdity of being alive, and of sharing that life with those around us. I love this novel. I can't recommend it enough.
+{% endcapture %}
+{% render 'meditations/section.liquid' 
+    gameTitle: "Middlemarch"
+    author: 'George Eliot'
+    gameLink: 'https://en.wikipedia.org/wiki/Middlemarch'
+    authorLink: 'https://en.wikipedia.org/wiki/George_Eliot'
+    img: '/img/meditations/06162024/middlemarch.jpg'
+    text: middlemarch
 %}
