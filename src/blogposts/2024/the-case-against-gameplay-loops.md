@@ -1,7 +1,7 @@
 ---
 layout: 'blogpost.liquid'
 title: The Case Against Gameplay Loops
-img: /img/against-gameplay-loops/deathloop-cover.jpg
+img: /img/against-gameplay-loops/groundhog-cover.jpg
 date: 2024-12-28
 tags: blog
 ---
