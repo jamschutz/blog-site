@@ -362,7 +362,8 @@ header a:hover {
 
 .Blog-youtubeEmbed iframe {
     width: 100%;
-    height: 36vw;
+    height: 56cqw;
+    max-height: 392px;
 }
 
 
