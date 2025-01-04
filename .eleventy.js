@@ -1,6 +1,7 @@
 const PostCSSPlugin = require("eleventy-plugin-postcss")
 const { rm } = require("fs/promises")
 const fs = require('fs');
+const { parse } = require('node-html-parser');
 
 module.exports = function(eleventyConfig) {
     // -- constants --
@@ -23,6 +24,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter('getArchiveYears', getArchiveYears);
     eleventyConfig.addFilter('getArchiveMonths', getArchiveMonths);
     eleventyConfig.addFilter('getArticlesForMonth', getArticlesForMonth);
+    eleventyConfig.addFilter('getFirstParagraph', getFirstParagraph);
 
     // -- config --
     fs.writeFileSync(`${dstDir}/code/config.js`, getConfig(buildEnvironment));
@@ -185,4 +187,19 @@ function getArticlesForMonth(posts, year, month) {
         }
     });
     return articles;
+}
+
+
+function getFirstParagraph(html) {
+    const blog = parse(html);
+
+    const paragraphs = blog.querySelectorAll('p');
+    for(let i = 0; i < paragraphs.length; i++) {
+        let paragraph = paragraphs[i].innerText.trim();
+        if(paragraph.length > 0) {
+            return paragraph;
+        }
+    }
+
+    return '';
 }
