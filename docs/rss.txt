@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Joey Schutz Blog RSS Feed</title>
+    <description>Joey Schutz's Blog</description>
+    <link>https://blog.joeyschutz.com</link>
+    <lastBuildDate>
+      Fri, 03 Jan 25 23:05:05 GMT</lastBuildDate>
+    <ttl>20000</ttl>
+
+    
+    
+        <item>
+            <title>The Case Against Gameplay Loops</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/the-case-against-gameplay-loops</link>
+            <pubDate>
+                Fri, 27 Dec 24 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Murder Mysteries and Midwest Button Mashers</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-murder-mysteries-and-midwest-button-mashers</link>
+            <pubDate>
+                Sat, 15 Jun 24 20:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Ambient play</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-ambient-play</link>
+            <pubDate>
+                Mon, 11 Dec 23 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>Sunday paper - 2 much Taiko (man's folly)</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-2-much-taiko-man-s-folly</link>
+            <pubDate>
+                Sat, 02 Dec 23 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Taiko forever!!!!!!!</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-taiko-forever</link>
+            <pubDate>
+                Sat, 18 Nov 23 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>First Post</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/first-post</link>
+            <pubDate>
+                Sat, 18 Nov 23 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+        <item>
+            <title>Favorites of 2022</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/favorites-of-2022</link>
+            <pubDate>
+                Sun, 01 Jan 23 19:00:00 GMT
+            </pubDate>
+        </item>
+    
+  </channel>
+</rss>

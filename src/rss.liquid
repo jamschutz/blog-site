@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Joey Schutz Blog RSS Feed</title>
+    <description>Joey Schutz's Blog</description>
+    <link>https://blog.joeyschutz.com</link>
+    <lastBuildDate>
+      {{ "now" | date: "%a, %d %b %y %H:%M:%S GMT" }}</lastBuildDate>
+    <ttl>20000</ttl>
+
+    {% assign sorted_posts = collections.blog | sort: 'date' | reverse %}
+    {% for blog in sorted_posts %}
+        <item>
+            <title>{{ blog.data.title }}</title>
+            <description>this is a blog post...</description>
+            <link>https://blog.joeyschutz.com/{{ blog.data.title | handleize }}</link>
+            <pubDate>
+                {{ blog.data.date | date: "%a, %d %b %y %H:%M:%S GMT" }}
+            </pubDate>
+        </item>
+    {% endfor %}
+  </channel>
+</rss>
