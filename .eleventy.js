@@ -31,7 +31,12 @@ module.exports = function(eleventyConfig) {
     // -- build --
     // remove the _collections dir from the site output
     eleventyConfig.on("eleventy.after", async () => {
-        await rm(`${dstDir}/_collections`, { recursive: true, force: true })
+        await rm(`${dstDir}/_collections`, { recursive: true, force: true });
+        await fs.copyFile(`${dstDir}/rss/index.html`, `${dstDir}/rss.txt`, (err) => {
+            if (err) throw err;
+            console.log('copied rss feed to txt file');
+        });
+        await rm(`${dstDir}/rss`, { recursive: true, force: true });
     })
 
     // copy CNAME over
@@ -47,6 +52,13 @@ module.exports = function(eleventyConfig) {
             output: dstDir
         }
     };
+}
+
+
+async function postBuildStep(dstDir) {
+    await rm(`${dstDir}/_collections`, { recursive: true, force: true });
+    // await fs.copyFile(`${dstDir}/rss/index.html`, `${dstDir}/rss.txt`);
+    await rm(`${dstDir}/rss`, { recursive: true, force: true });
 }
 
 
