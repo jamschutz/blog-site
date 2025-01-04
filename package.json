@@ -16,6 +16,7 @@
     "autoprefixer": "^10.4.15",
     "eleventy-plugin-postcss": "^1.0.4",
     "esbuild-register": "^3.3.2",
+    "node-html-parser": "^7.0.1",
     "postcss-import": "^15.1.0",
     "postcss-simple-vars": "^7.0.1"
   },

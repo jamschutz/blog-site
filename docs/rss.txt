@@ -5,14 +5,14 @@
     <description>Joey Schutz's Blog</description>
     <link>https://blog.joeyschutz.com</link>
     <lastBuildDate>
-      Fri, 03 Jan 25 23:05:05 GMT</lastBuildDate>
+      Fri, 03 Jan 25 23:21:30 GMT</lastBuildDate>
     <ttl>20000</ttl>
 
     
     
         <item>
             <title>The Case Against Gameplay Loops</title>
-            <description>this is a blog post...</description>
+            <description>Recently I found myself playing Tactical Breach Wizards, the new tactics game by Tom Francis. I really liked it! I enjoy tactics games, and this one felt fresh and interesting, with good mechanical hooks and nuanced abilities. But at some point along the way, it began to feel stale to me. It was putting out a steady trickle of new powers, new mechanics, new problems, but foundationally it’s all pretty similar: you enter a room full of bad guys, then you clear the room of bad guys. I began to feel the old pull in my heart that maybe it was time for me to stop playing this game; and then, after beating a boss, the game declared in big bold letters: “Act 2 out of 5 COMPLETE.” My god…3 more acts and I’m already tired! So I put it aside and went on with my life.</description>
             <link>https://blog.joeyschutz.com/the-case-against-gameplay-loops</link>
             <pubDate>
                 Fri, 27 Dec 24 19:00:00 GMT
@@ -21,7 +21,7 @@
     
         <item>
             <title>Sunday paper - Murder Mysteries and Midwest Button Mashers</title>
-            <description>this is a blog post...</description>
+            <description>For one reason or another I've fallen off on this, but I'd like to get back into the habit.......so here goes! These are the games I played and got excited about this past week.</description>
             <link>https://blog.joeyschutz.com/sunday-paper-murder-mysteries-and-midwest-button-mashers</link>
             <pubDate>
                 Sat, 15 Jun 24 20:00:00 GMT
@@ -30,7 +30,7 @@
     
         <item>
             <title>Sunday paper - Ambient play</title>
-            <description>this is a blog post...</description>
+            <description>Here are my favorite games of the past week!</description>
             <link>https://blog.joeyschutz.com/sunday-paper-ambient-play</link>
             <pubDate>
                 Mon, 11 Dec 23 19:00:00 GMT
@@ -39,7 +39,7 @@
     
         <item>
             <title>Sunday paper - 2 much Taiko (man's folly)</title>
-            <description>this is a blog post...</description>
+            <description>Took a break last week for Thanksgiving, but I am back in full force! Here's what I got excited about this last week (and change).</description>
             <link>https://blog.joeyschutz.com/sunday-paper-2-much-taiko-man-s-folly</link>
             <pubDate>
                 Sat, 02 Dec 23 19:00:00 GMT
@@ -48,7 +48,7 @@
     
         <item>
             <title>Sunday paper - Taiko forever!!!!!!!</title>
-            <description>this is a blog post...</description>
+            <description>This is my first one of these, but the plan is to just quickly post about the interesting things I played this past week. Here goes!</description>
             <link>https://blog.joeyschutz.com/sunday-paper-taiko-forever</link>
             <pubDate>
                 Sat, 18 Nov 23 19:00:00 GMT
@@ -57,7 +57,7 @@
     
         <item>
             <title>First Post</title>
-            <description>this is a blog post...</description>
+            <description>Earlier this year, I played through a bunch of 2000s flash games. I found a lot of gems (maybe I'll write them up someday), but one of the most exciting parts about the whole ordeal was stepping back into the past and reading old blog posts from the early 2000s. I wasn't at all sure any of those sites would be up still, to be honest, so it was a pleasant surprise to be able to wade into the waters of 20-year-old discourse and see what people were playing or talking about at the time. Some of them, like TIG Source or Jay Is Games, I knew about — but many I did not! They tend to link out to each other which makes finding them surprisingly easy once you've started. And as you play games, many of those designers have their own blog sites as well, which adds to the pile. In particular I was inspired by the blogs of cly5m, Terry Cavanagh, Tim W., and many others — there are so many!</description>
             <link>https://blog.joeyschutz.com/first-post</link>
             <pubDate>
                 Sat, 18 Nov 23 19:00:00 GMT
@@ -66,7 +66,7 @@
     
         <item>
             <title>Favorites of 2022</title>
-            <description>this is a blog post...</description>
+            <description>I guess the last time I did one of these was four years ago…wow! This year I played a lot of wonderful games, though the vast majority of them were made by friends and peers (journalistic integrity be damned). I suppose these sorts of lists are somewhat self-indulgent, but I enjoy making them, so here it is! This year I decided to include my favorite movies and books I enjoyed over the year as well. The list isn't ranked at all — everything is listed in the order in which I came to it — and I didn't bother to trim it to only “the top ten” or anything. Different things resonated with me for different reasons, and why shouldn't we praise and celebrate generously, after all? If something stuck with me, however large or small, I've included it below.</description>
             <link>https://blog.joeyschutz.com/favorites-of-2022</link>
             <pubDate>
                 Sun, 01 Jan 23 19:00:00 GMT

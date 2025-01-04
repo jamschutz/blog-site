@@ -12,7 +12,7 @@
     {% for blog in sorted_posts %}
         <item>
             <title>{{ blog.data.title }}</title>
-            <description>this is a blog post...</description>
+            <description>{{ blog.content | getFirstParagraph }}</description>
             <link>https://blog.joeyschutz.com/{{ blog.data.title | handleize }}</link>
             <pubDate>
                 {{ blog.data.date | date: "%a, %d %b %y %H:%M:%S GMT" }}
