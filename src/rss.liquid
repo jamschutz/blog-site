@@ -17,6 +17,9 @@
             <pubDate>
                 {{ blog.data.date | date: "%a, %d %b %y %H:%M:%S GMT" }}
             </pubDate>
+            <content:encoded>
+                <![CDATA[ {{ blog.content }} ]]> 
+            </content:encoded>
         </item>
     {% endfor %}
   </channel>

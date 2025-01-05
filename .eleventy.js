@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
     // remove the _collections dir from the site output
     eleventyConfig.on("eleventy.after", async () => {
         await rm(`${dstDir}/_collections`, { recursive: true, force: true });
-        await fs.copyFile(`${dstDir}/rss/index.html`, `${dstDir}/rss.txt`, (err) => {
+        await fs.copyFile(`${dstDir}/rss/index.html`, `${dstDir}/feed.xml`, (err) => {
             if (err) throw err;
             console.log('copied rss feed to txt file');
         });

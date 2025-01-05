@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Joey Schutz Blog RSS Feed</title>
+    <description>Joey Schutz's Blog</description>
+    <link>https://blog.joeyschutz.com</link>
+    <lastBuildDate>
+      Sun, 05 Jan 25 17:41:48 GMT</lastBuildDate>
+    <ttl>20000</ttl>
+
+    
+    
+        <item>
+            <title>The Case Against Gameplay Loops</title>
+            <description>Recently I found myself playing Tactical Breach Wizards, the new tactics game by Tom Francis. I really liked it! I enjoy tactics games, and this one felt fresh and interesting, with good mechanical hooks and nuanced abilities. But at some point along the way, it began to feel stale to me. It was putting out a steady trickle of new powers, new mechanics, new problems, but foundationally it’s all pretty similar: you enter a room full of bad guys, then you clear the room of bad guys. I began to feel the old pull in my heart that maybe it was time for me to stop playing this game; and then, after beating a boss, the game declared in big bold letters: “Act 2 out of 5 COMPLETE.” My god…3 more acts and I’m already tired! So I put it aside and went on with my life.</description>
+            <link>https://blog.joeyschutz.com/the-case-against-gameplay-loops</link>
+            <pubDate>
+                Fri, 27 Dec 24 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Recently I found myself playing <em>Tactical Breach Wizards</em>, the new tactics game by Tom Francis. I really liked it! I enjoy tactics games, and this one felt fresh and interesting, with good mechanical hooks and nuanced abilities. But at some point along the way, it began to feel stale to me. It was putting out a steady trickle of new powers, new mechanics, new problems, but foundationally it’s all pretty similar: you enter a room full of bad guys, then you clear the room of bad guys. I began to feel the old pull in my heart that maybe it was time for me to stop playing this game; and then, after beating a boss, the game declared in big bold letters: “Act 2 out of 5 COMPLETE.” My god…3 more acts and I’m already tired! So I put it aside and went on with my life.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is nothing new for me. Chances are, this is nothing new for you either! Pretty much none of us are finishing games these days. Here’s a <a href="https://deathisawhale.com/2021/01/20/how-many-players-actually-finish-games/">random article</a> looking at Steam achievements (now public) showing almost no game even reaches a 50% completion rate amongst its players. Here’s an <a href="https://www.ign.com/articles/2014/03/17/gdc-most-players-donat-finish-games">IGN article</a> summing up a GDC talk that says companies’ internal data reveals the typical number is about 33%. But anyways I suspect you don’t really need data to believe me on this – we already know it. It’s obvious.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>And for a while now I’ve been thinking about this phenomenon. What’s going on? It is very rare that I don’t finish a movie I’ve begun. For books, I track my reading habits and I finish around 85% of the books I start. For games (which I do not track diligently…) there is no way I am even hitting 33%. I do not finish games. But it doesn’t seem to be something about my media habits at large, which means…
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>It must be about the games themselves. This is maybe also obvious, but I wanted to think it through out loud. I wanted to be sure! Because really I think it might be a problem with gameplay loops…
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Picture this: you are making a movie about a man aging into a world he no longer belongs in. You need a scene where he passes the torch. If you’re Luchino Visconti, you’ll shoot it as a dance, a grand waltz before an audience in awe of the mouldering beauty of a fading aristocrat.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-youtubeEmbed">
+    <iframe allow="fullscreen;" src="https://www.youtube.com/embed/TUhAJxx4kFI"></iframe>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Now picture the game. It would be a cutscene. Or, worse, the whole game would be about dancing. You’d start as a young dancer, talented but raw. You’d have rivals and challengers as you grow into your craft. New locations and clothing to unlock, side quests and collectables. And it would end with Visconti’s scene, where you fade into elegance, a touching finale. And perhaps it would feel quite beautiful: a dying breath in the clamor of candlelight, made all the more beautiful by the repetitions preceding it. But let’s think about this…the story isn’t about dancing! It’s not about clothing or exotic travel, or side quests or trinkets, it’s about a fading aristocrat. In the film, we see them talk, they hunt, we see battles and political rallies. We see dinner parties and long walks. The action <em>changes</em>. Of course it does. And our game, which is now about dancing, we’ve lost all of this. We lost the grandiosity of the character. We lost his multifaceted nature, his quiet interiority. We lost the political climate’s bombastic reverberations. We have taken all of this and gone and made a game about <em>dancing</em>. We’ve made a game loop.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>How did this happen? Well, let’s see how things developed for the film. We have a film about a fading aristocrat. We’ve thought about the story, what it means to us, and so we come to this scene hoping to reveal something.  Our aristocrat suddenly finds himself in twilight: he, and everyone in attendance, can see it plainly. The world is changing. So we take this meaning – this is our foundation – and we construct action to reflect it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>For the game, we begin with the action – <em>this</em> is our foundation – and the meaning can come later. We think we can make dancing mechanically interesting enough to repeat, and so we make a game about dancing. We have some mechanical developments we want to trickle out through the game’s runtime. We want to have a big story with a lot of locations and a lot of nemeses, so we’ll go ahead and commit to 30 dances and let’s just focus on making the dancing something you can do 30 times (we’ll have far fewer than 30 mechanical variations, but no bother). Within that, we’ll find a few set piece moments where we can reveal more about the character, or the historical context, or a thematic idea (still told through dance, or else a cutscene). And then at the end we’ll wrap with that lovely moment: the passing of the torch. And no one will play it, because who finishes video games?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Do you see where we went wrong? We approached it backwards. For the film, we began with the meaning and staged it accordingly. But for the game, we began with the action and grafted meaning into our tracks. But if the action isn’t born out of meaning…how did it get there in the first place?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>How <em>did</em> we get here? I think in some ways it’s a historical relic. For board games, which vastly predate video games, it’s much harder to have a game where mechanics are malleable. The designer writes the rules, and there they are. You read the rules, you play it, and if you had fun you play it again. The hope is that the play is rich enough to justify repetition. Put another way, the hope is each playthrough is meaningful. And this is accomplished because board games are <em>multiplayer</em> games. I’ve played <em>Battle Line</em> dozens of times with my roommate, and every time leaves us sweating over who’s going to win. And this grants the play its meaning. Every turn taken is a step towards or away from victory, which makes every step <em>meaningful</em>. Eventually we had played enough times to where one of us won more regularly than the other, and the meaning was lost, so we stopped playing.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The core mechanic as a paradigm got solidified in video games through the arcades, I think. For coin ops, the need is interminability. We don’t ever want the player to stop playing (and paying), and this is best achieved through a core loop that addicts us. Whatever the play is, it should be looping, repetitious, infinitely extendable. Keep those coins coming. What grants arcade games their meaning is their high scores: arcades are social spaces. Like the combative meaning of <em>Battle Line</em>, <em>Space Invaders</em> is granted meaning through leaderboards and face offs. Even if you’re just playing against yourself, there is a tension of getting farther, doing better, honing your craft and seeing it reflected in concrete terms. Everything you do in the game furthers this goal, which makes everything you do meaningful.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But even as games moved to the living rooms, and slowly shed their points systems (which lost most of their meaning when divorced from the public arcades), it seems we’ve never quite shaken this idea of the core loop. For board games, it’s a quirk of the medium: the static rule book. For arcades, it’s a quirk of the market: keep players hooked. But for video games…I don’t see how it’s necessary. It can be a useful tool, certainly, but it’s not wielded as a useful tool. It’s an axiom of game design textbooks.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The other factor here is the medium’s obsession with playtime. My cursory historical sense is that this has always been a spector in the medium, haunting our production cycles and marketing campaigns. But it seems to have really taken on a life of its own around the 2000s and into the 2010s with the boom of the open world game. In the lead-up to its release, <em>Fallout 4</em> producer Jeff Gardiner <a href="https://www.gamesradar.com/fallout-4-so-expansive-even-its-creators-havent-seen-everything/ ">told GamesRadar</a>, “I’ve played the game probably 400 hours, and I’m still finding stuff that I haven’t seen yet.” Todd Howard added, “I’ll be playing the game and run into something and be like, ‘Who built this? What is this? It’s so big!’” (God help us.) Bethesda excesses aside, there are real market pressures these days to make our games sufficiently long. How long is a bit nebulous, but at any waking moment there is a horde of redditors waiting to decry the futility of spending money on anything that won’t fill their time for fewer than 30 hours. For indies, the pressure to clear the 2 hour mark was hung ominously overhead when Valve updated their policy to allow refunds up to that threshold.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>And, naturally, it is hard to build a 30 hour game (let alone a 400 hour one). And it also happens to be expensive. The most rational way to achieve this is to make a game out of reusable parts: rather than building scenes from scratch, we can build them from a library of props and assets. Rather than building out gameplay to suit the scene, we can build gameplay loops.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But this, of course, is not a very satisfying foundation. If our gameplay loops are just facilitators of content, it’s no wonder their games are left hollow and inert. It’s no wonder we stop playing them. Why bother if everything that awaits us is just fluff, filler, sound and fury? If we’re just hamsters spinning wheels?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>By now you might be wondering if the problem is really gameplay loops and not runtimes. And it’s a fair question. Certainly, I think, many souls lie in the graveyard of The Thirty Hour Game. But I think there is something to this gameplay loop thing. Even smaller games, games made <em>before</em> Steam’s 2 hour refund policy, have this hollowness…
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I am playing <em>Nine Sols</em> at the moment. Or, maybe I’m done with it now, I’m not sure. But the fact of the matter is that I’m enjoying it. It’s pretty fun. I actually like it even more than <em>Hollow Knight</em>, which I bounced off of. But recently I can’t shake this sense that it’s bloated. I’m not talking about huge runtimes, I mean at a smaller scale. As I move through its world, it’s well made, it’s pretty nice and it’s varied, but, honestly…when I step back about 95% of it feels unnecessary. I couldn’t tell you what purpose it really serves.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I want to think of this another way. This year I read Linda Hutcheon’s <em>A Theory of Adaptation</em>, which is about...adaptation. She talks about how adaptations are these interesting creatures: the same story told over again. And she muses on the allure of these works. Why are we drawn to them in the first place? One of the things she settles on is this idea of repetition and variation. That a good adaptation has both, the familiarity of a source text with the variation of an interpretive overlay. She talks of this idea of the palimpsest (and has this great term “palimpsestuous” which we should all start using), where you can feel two things at once: the old and the new. The repetition and the variation. And it is this two-things-at-once quality that drives a lot of the power of adaptations. In contrast to adaptations, she brings up the sequel: the sequel is not really an adaptation. It is not an interpreter of its predecessor, but rather an “expansion.” It’s there to continue the story. It’s there because you want more.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I think that’s what’s going on with <em>Nine Sols</em>. I don’t want to pick on it, because actually I like it – I think it’s better than most games – and yet it still has that hollowness when I look closer. In Hutcheon’s terms (and she certainly would disapprove of them being applied here, but I can rest easy knowing she will never read this) <em>Nine Sols</em>’s gameplay feels like an expansion. They found something interesting to do once, so why not do it again? and again? and again…? And they’re not alone! I think this is the de facto way of making games right now.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I think as game designers there is this sense that good design is turning up every possible use case of a mechanic, leaving no stone unturned. But it isn’t especially compelling for me to see all the different ways a designer found for me to use their lockpick mechanic. A good case study was <em>Cocoon</em> from last year. A game filled to the brim with what any game design textbook would call excellent design. It takes a simple (if brain-boggling) idea of nested dimensions and spends a few hours showing you every which way it can be thought of. It was an impressive display! But I didn’t like it. I found it cold, and dull. The design was impressive, certainly, but I couldn’t figure out how my role as a player fit meaningfully into its design. It felt like its entire <em>raison d’être</em> was to prove they could stretch one mechanic, one loop, for three hours. And by Jove they did it! But I can’t figure out what for. What was the point?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The whole premise of the core loop game is to figure out a thing you can do for hours and hours. Refine that mechanic until it’s something broad enough and bendable enough, without specificity, to be deployed in a thousand different contexts. And then you go and make a lot of stuff with it. It’s a harsh delineation between the form (the mechanics) and the content (what you do). And usually it leaves me feeling unmoved. Usually it leaves me feeling like neither has much of a purpose. The content is there to justify the mechanics, and the mechanics are there to give you something to do with the content...and we never make anything with a real purpose. What is any of this for?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So, what now? Should we give up the ghost? Loops can never work?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Despite everything, I actually think this is a structure that can be useful! But for it to work, it needs to be used with intention, not simply because it’s how games are made. First, I want to look at how artists in other media have used this structure, because I think it might be helpful for thinking about games. What does it mean to use loops with intention?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>In music, there are actually a lot of cases of repetitious structures. One famous example is Erik Satie's <a href="https://www.youtube.com/watch?v=sKKxt4KacRo">“Vexations.”</a> It’s a very short piece that bears the inscription: “In order to play the motif 840 times in succession, it would be advisable to prepare oneself beforehand, and in the deepest silence, by serious immobilities.” No one knows if Satie was joking, or if he actually meant the piece to be repeated 840 times. It was never performed until 1963 when John Cage gathered a group of pianists to play the whole enchilada. From the <a href="https://en.wikipedia.org/wiki/Vexations ">Wikipedia page</a>:
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-quote">
+<p>Cage set the admission price at $5 and had a time clock installed in the lobby of the theatre. Each patron checked in with the clock and when leaving the concert, checked out again and received a refund of 5¢ for each 20 minutes attended. &quot;In this way&quot;, he told Lloyd, &quot;People will understand that the more art you consume, the less it should cost.&quot; But Cage had underestimated the length of time the concert would take. It lasted over 18 hours. One person, an actor with The Living Theatre, Karl Schenzer, was present for the entire performance.</p>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So here, of course, the repetition forms the joke. It’s a gag piece, and the sheer, absurd scope of it creates the humor. We can see there is a purpose to the repetition!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>More seriously, we can look elsewhere: the most famous example must be Ravel’s <a href="https://www.youtube.com/watch?v=3WS76eKIJJA">“Bolero.”</a> The whole point of the piece is the shimmering variety of tones and textures: the same theme played over and over, but reorchestrated, reframed, revivified. Hutcheon’s repetition and variation. This is a piece that can <em>only</em> work through its looping structure. More examples include rounds, like Moondog’s “<a href="https://www.youtube.com/watch?v=WEgRobOU13Q">Bumbo</a>” (not strictly a round I guess but certainly repeating); or the <a href="https://www.youtube.com/watch?v=lTaX7FQF0hY">zen reiterations of the minimalists</a>. In all of these cases, repetition drives its meaning. It is core to what the composers are trying to do, and it cannot be extricated from the music.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Within poetry, you have ghazals and sestinas, two forms built heavily on the gathering power of repetition. In addition, poets frequently use repetition not as a rigid formal structure but as a literary tool. Take Frank O’Hara’s <a href="https://allpoetry.com/Having-A-Coke-With-You">“Having A Coke With You,”</a> where he repeats the word “partly” five times in succession to drive home the fact that he has countless reasons to love someone.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Within novels, you have structures like episodic novels. One of my favorite forms is the picaresque novel, which features a lovable social outcast who proceeds through a series of comedic episodes. Usually there’s little plot: it’s more about illustrating theme and character through scenarios, and in this way its looping, episodic structure allows the character to be put through changing contexts to prismatic effect. Their roundabout structure creates an enigmatic meaning that can’t be arrived at more directly.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The final example I want to look at is the Sondheim song <a href="https://www.youtube.com/watch?v=3Xz1TUgdG6A ">“I’m Still Here.”</a> I think it’s a good example of the power of repetition. Sondheim takes a core idea and turns out all its subtle meanings. “I’m still here” means the singer’s survived everything. It means “here” as in the big times. It means outliving a thousand political moments and tide changes; being forgotten and abandoned; doing bit jobs in the margins. It means remembering why she’s still around. And as this same refrain repeats and repeats – I’m still here. I’m still here. – it gains and gathers momentum, all of its deposited meanings silted in its underbelly, swollen to a tide of relentless obstinacy: she has never gone away. She will outlast all of us. It is a theme built on repetition.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So let’s think about games.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>We want to make a game about mastering a skill and overcoming the odds. To master the skill, we’ll need to repeat it, and practice it. To really <em>feel</em> like it’s a skill to be mastered, we’ll need to fail, perhaps even a lot. We should feel threatened, and vulnerable, to make a game about prevailing. Otherwise there is no triumph. This is how <em>Dark Souls</em> works. It works as a loop, and it works well. You fail and you loop: this generates triumph. You repeat your small set of skills: this generates mastery. It works! And everything in the game is built around this. The world is oppressive and labyrinthine, enemies are brutally powerful and intimidating. And you loop through this disempowerment until you come out the other side.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I think this is how most games view the purpose of their loops. It’s for the player to master a skill. But most of these games aren’t really about that. In <em>Assassin’s Creed Odyssey</em> you have an RPG skill tree that unlocks new abilities, lets you get better and better at fighting and sneaking. And, I suppose you could make a case that the game is about an assassin honing her craft. But...actually it really isn't. It’s about someone trying to find who her real family is. Or it’s about exploring ancient Greece. Or it’s about choosing sides in the Peloponnesian War. Or...something else. I’m not really sure what it’s about, honestly, and anyways it doesn’t matter. Let’s say it’s about an assassin honing her craft. Nothing in the game really supports that. The world doesn’t feel oppressive or vulnerable, it hardly matters if you get better or not, it’s quite easy; it’s impossible to get lost; you never fail. I don’t really feel like my skill in that game improved, as I played it. It felt more like…the game just kept going. It takes a lot of work to make this structure meaningful!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But let’s suppose these games did make this work. Let’s say all these games achieve the difficult task of creating meaning through play, feeling mastery through repetition…it’s not that this is a bad use of play, but I have to believe it is not all play can offer us. I hope it is just a small fraction of what play is capable of! So why is this all we’re doing? Why can’t we hope for more?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Let’s look at another example. I want to come back to that sense of “hollowness” I felt with <em>Nine Sols</em>, because it’s a feeling I find often in games, even games I enjoy. One such game is <em>Celeste</em> (sorry!). I think it’s well designed, and feels good to play. But when I think about the work holistically…I honestly don’t feel like most of its levels are necessary. I think if it was 30 minutes it’d probably be just as good. I think many of its levels don’t mean much. And I think probably much of its design was driven by a sense that: this is how games are built. We build mechanics and then we loop over them, rearrange the deck chairs, play the hits. If it was fun once, it’ll be fun a second time. And it is! But I don’t think it means anything more than that, which is a shame.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But take <em>Getting Over It</em>. This is a game that, for me, uses its mechanics for real purpose, real intention. Crashing to the beginning has weight and impact. It’s what gives meaning to the ascent: the perilous risk of losing progress is the point. In virtually all cases this results in a looping structure (go up, and crash down; go up, and crash down), but again this loop has meaning. The point is to ultimately break out of it, through your own power. In <em>Celeste</em>, the loop feels more like a design obligation. I don’t really see what meaning it brings to the work as a whole. When I compare climbing in <em>Getting Over It</em> to <em>Celeste</em>, I feel a visceral connection to <em>Getting Over It</em> that I don’t feel in <em>Celeste</em>. I think its prolonged, looping structure actually waters down what it’s doing. I don’t feel like I’m climbing a mountain, I feel like I’m playing through a gauntlet of single screen platform levels. I don’t feel like I’m playing a progression. I feel like I’m playing a gameplay loop.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Blog-dividerContainer">
+    <div class="Blog-divider" style="">
+        <hr/> ⋞ ☀ ⋟ <hr/>
+    </div>
+    <div class="Blog-dividerFaders">
+        <div class="Blog-dividerFaderLeft"></div><div class="Blog-dividerFaderRight"></div>
+    </div>
+</div>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So where do we go from here? Honestly I would like fewer gameplay loops. I don’t think they’re being used very meaningfully right now. I think they are just content machines and nothing more. And this is sad!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>There are cases, certainly, where it can make sense to use a loop. Perhaps your game is one of those cases. But I would like us to really think about it. I think we are all skipping that step, of asking ourselves: why this structure, and not another?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>To return to the idea of not finishing games, I want to think of it a different way. When I watch a movie, or read a book, I want to reach the end. I want to see how it wraps up. How can we understand a work if we never see its finale? But in games, we inevitably reach a point where we’ve seen everything, and there’s no reason to keep going. And, despite there being more story, art, locations and music, voice acting and collectables…mechanically, we are right. And we know we’re right. We’ve seen everything. From here on out, it’s just a matter of doing what we’ve already done, over and over again. It’s a matter of looping.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But there are other ways to build a game. <em>Oikospiel</em>, <em>The Beginner’s Guide</em>, and <em>Thirty Flights of Loving</em> are just a few examples. A better world is possible! Let’s build it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+ ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Murder Mysteries and Midwest Button Mashers</title>
+            <description>For one reason or another I've fallen off on this, but I'd like to get back into the habit.......so here goes! These are the games I played and got excited about this past week.</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-murder-mysteries-and-midwest-button-mashers</link>
+            <pubDate>
+                Sat, 15 Jun 24 20:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>For one reason or another I've fallen off on this, but I'd like to get back into the habit.......so here goes! These are the games I played and got excited about this past week.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.glorioustrainwrecks.com/node/10727"><i>100</i></a>,
+             by <a href="https://www.glorioustrainwrecks.com/user/19155"> everythingstaken</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/06162024/103.PNG"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>A game of 100 three-second one-button minigames. To me, Blake Andrews is one of the best there is at game feel — everything they do is so textured and tactile, and operating in a space that feels wholly its own. To play through this rapid-fire collection is to feel a vast range of textures and moods. Mostly the ideas are scattered and disconnected (in a good way!), though occassionally small ideas will build on each other (most notably in the Theo the Cat sequence, which I will not spoil here).
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is a game that feels difficult to put into words for me! Part of the game's urgency is in its vastness (100 games! all different!). It's quite striking to fly through so many ideas, similar to the effect of a one-take in film, or a diabolic etude in music: the artist's craft is so forcefully on display that you feel their presence in a way. There's an awe to what they've taken on and accomplished. But here that sense is coupled with a flippant irreverance. I feel each of these games is wonderful, but their strict three-second timer lops any &quot;elegance&quot; off as you stutter between ideas at a break kneck pace. More than this, there's an impossible charm to the scenes' quiet mundanity: sleeping cats, cash for gold billboards, dwindling soap dispensers. In the oft-talked-about age of instagramification where everything feels painted over and curated, it's a blessing to see the elevation of these forgotten moments.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But more than anything these games are a delight. Consistently funny, strange, surprising, it needs to be played to be felt (and I haven't even mentioned <a href="https://lillyan.bandcamp.com/album/100-ost">the music</a>). Play it!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://thecatamites.itch.io/anthology-of-the-killer"><i>Anthology of the Killer</i></a>,
+             by <a href="http://harmonyzone.org/"> thecatemites</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/06162024/killer.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This was the &quot;book club&quot; game at <a href="https://boshis.place/">Boshi's Place</a> this month (we just play games and talk about it together) which means I finally got around to digging into it! Predictably amazing. The usual thecatemites' charms are here: derisive humor, biting satire, beautiful worlds, and beautiful sounds. The writing in this game is phenomenal. It's a literary style (very Pynchon-esque) that is so rarely employed in the games world, and is more &quot;serious&quot; or &quot;classical&quot; than what I'm used to for thecatemites' style (I've only played <a href="https://thecatamites.itch.io/magic-wand">Magic Wand</a> and <a href="https://thecatamites.itch.io/50-short-games">50 Short Games</a> though so maybe my sense of their style is skewed).
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>What's most exciting to me about the game is its formal qualities: for one, its episodic nature is different from the usual games fare. Rather than breaking out one long story into a series of standalone acts, it really leans into the affordances of episodic structures to tell a much looser frame narrative. So far at least (4/9 episodes in), acts don't spill into each other, but feel more like paper layers laid atop one another, building mass iteratively through time spent in this world, with these characters. Its an exciting device to me lately (in the books world I've become enamored with the <a href="https://en.wikipedia.org/wiki/Picaresque_novel">picaresque novel</a> for similar reasons) and it's fun to see it employed here.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I'm also really in love with its mechanical structure. The game is more or less a walking sim, seeing you plumb the halls of deep red backrooms, folding itself open through simple navigation. But as you walk around you'll find small green eye icons which, when walked over, stamp out narrations at the bottom of the screen. The result is something like a marriage between a walking sim and a visual novel: tension and terror is built through menacing spaces you have to move through, but you also get the more nuanuced interiority something like a visual novel allows. I can't think of anything that feels quite like it (not least because its writing is so evocative, and cutting) and makes me excited to see more of these sorts of experiences pop up.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://store.steampowered.com/app/2682550/DEEPMESS/"><i>DEEPMESS</i></a>,
+             by <a href="https://glassjury.com/"> Glass Jury</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/06162024/DeepMess.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This last game isn't out yet, but can be wishlisted! The premise is &quot;a turn-based tactics descent into the mind of god.&quot; Think <a href="https://store.steampowered.com/app/590380/Into_the_Breach?snr=1_7_15__13">Into the Breach</a> where you descend between layers. The result is an incessant nail biter — you feel deliciously powerless in this game, and unlike most tactics games the goal is not to clear out the screen but to stay alive. A good turn never tips the balances into calm, but rather punches out an exhale held in the gut for too long. It's so fun, and makes for this constantly evolving dance: how far can I descend before it all catches up to me? Keep your eyes out for this one: I love it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://koonce.itch.io/crockpot"><i>Crockpot</i></a>,
+             by <a href="https://koonce.itch.io/"> emily koonce</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/06162024/crockpot.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I wanted to give a shoutout for a game I didn't get a chance to play, but seemed great while watching. Last night I attended its launch party at Boshi's Place, and I'm keen to play it in my own time. You should too!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://en.wikipedia.org/wiki/Middlemarch"><i>Middlemarch</i></a>,
+             by <a href="https://en.wikipedia.org/wiki/George_Eliot"> George Eliot</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/06162024/middlemarch.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Okay it's not a game but I have been obsessing over it. Stunningly beautiful, and funny. George Eliot has an amazing capacity for reaching into the mind of a character with searching clarity. Everyone in this novel feels so alive, and complex, each one dotted with their own pecularities and hang ups. It has a sprawling cast, and it roams among the minds of all of them, never settling into a perspective, but placing each one alongside the others. The result is a novel that feels both vast and intimate, and it seems to be about everything: the eye-opening beauty, pain, and absurdity of being alive, and of sharing that life with those around us. I love this novel. I can't recommend it enough.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div> ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Ambient play</title>
+            <description>Here are my favorite games of the past week!</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-ambient-play</link>
+            <pubDate>
+                Mon, 11 Dec 23 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Here are my favorite games of the past week!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://gabbahbaya.itch.io/urbanfutures"><i>UrbanFutures</i></a>,
+             by <a href="https://gabbahbaya.itch.io/"> Gabbah Baya</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12122023/UrbanFutures.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Conceived as a kind of gallery exhibition of &quot;works of art and activitism that showcase intersectional sensibilities and strategies for understanding, addressing, and healing urban fault lines, drawing from the radical potential of dreaming,&quot; this is a collection of dreams, thoughts, and games imagining a better world for ourselves. Gabbah Baya presents these disparate works very thoughtfully, each little room curated to reflect and expand the ideas and feelings of the exhibited piece. One cubby houses a musical piece, where a set of hearts and necklaces hover while you listen; another corner displays architectural drawings, some of which wrap around the faces of spinning cubes. It's hard to do justice to in text, but every room feels different, its own. It makes moving from room to room exciting and drew me to think deeply and critically about the specific ideas being presented within a given work.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Moving through the space as a whole is beautiful. I think it's one of the most beautiful digital spaces I've ever visited, with loping, elongated pathways over shimmering ribbons, blushing stars drifting into the dark. The music is stunning. I am playing it on repeat, as I write this, drifting to its angelic textures and harmonies. It's a gorgeous piece.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>There is an air of tragedy in a lot of these works. Tales of displacement, estrangement, a world that has failed us. So I found myself moved by how much hope and love these artists have for the world, for their communities, for themselves and each other. It's a beautiful game, and a gift to visit. May our own worlds grow to meet its compassion.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://irene-li.itch.io/auto-battle-knights"><i>Auto Battle Knights</i></a>,
+             by <a href="https://irene-li.itch.io/auto-battle-knights"> Irene Li</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12122023/autoBattle.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This game utterly consumed me for an afternoon...It's a PvP autobattler where you level up your knight over many rounds, shaping their stats to build a unique fighter. The HP vs Dexterity vs Damage decision is streamlined but surprisingly deep, especially in tandem with choosing how aggressive / defensive you want to be. I built high HP damage aggressors, glass canon dexterity ninjas, ultra defensive blocking machines, all to varying success, and all with varying feels to them. It feels quite expressive!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Perhaps the main hook though is that after your death your fighter will live on as a future enemy. Everyone in the game (with I think a few exceptions) was a past player's ruinous attempt at glory, so you are battling through a gauntlet of your past troughs and triumphs. Every character I made was in the &quot;eunice b dibble&quot; lineage, so I would regularly stare at the stats of a foe and think, &quot;what a terrible build&quot; or, worse, &quot;how will I ever defeat them?&quot; only to look at their name and see it scrawled: &quot;eunice b dibble vi.&quot; To feel the weight of our histories...it's really quite fun. It's not as number crunchy as maybe I'm making it sound, but feels much more playfully experimental with a fun persistent world element to it. Eunice b dibbles unite!!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://commonopera.itch.io/brave-mouse-cartographer-trilogy"><i>Brave Mouse Cartographer Trilogy</i></a>,
+             by <a href="https://www.commonopera.com/"> common opera</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12122023/mouse.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This past weekend, I went to the <a href="https://flan.itch.io/raindrop-races-zine">Raindrop Races</a> showcase on ambient play at <a href="https://linktr.ee/boshisplace">Boshi's Place</a>. It was a collection of games that focused on &quot;the type of play we engage in even when we have no choice or control at all over the outcome.&quot; The whole collection was very exciting, with a live indoors raindrop racing setup, a Super Smash Bros Melee CPU-only tournament, the After Dark screensaver collection (below), and this beauty from common opera. At the show, this was displayed with a large canvas where we could chart the map ourselves, translating the roving images on screen to a human record. I was so captivated by the images, though, that I just happily watched. The bird animations are stunning, beautifully fluid with quivering pixels. It was gorgeous watching it roam an unknown land. And those clouds! Maybe the most beautiful videogame clouds I have ever seen?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Earlier this week, I read <a href="http://www.nathalielawhead.com/candybox/walking-sims-and-the-joy-of-existing-in-a-virtual-space">Nathalie Lawhead's essay on walking sims</a>, and they talk about how AAA games have these beautiful worlds, but their mechanics hurry us along without letting us stop and breathe. Lawhead holds walking sims as a balm for this, spaces where <i>all</i> you can do is appreciate the world, its people, its environs. <i>Brave Mouse Cartographer</i>, for me, is an even more radical approach to this ethos. You have no agency over where the game takes you, and in stripping it away you are left with no choice but to disengage, or sink deeply into its rhythms. For me it was a very stunning experience, a slow-cinema-like meditation. I sat for about 15 minutes, just poring over its world, rising and falling with reverie to the drum of a bird's wings. A beautiful game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>After Dark</i>,
+             by Berkeley Systems
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12122023/AfterDark.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The other game I fell in love with at the exhibit was this collection of screensavers from 1989. I don't know how many screensavers there are, dozens, and they cover a vast range of styles and sensibilities. There was a game where you watch for lightning, which let you tweak the bolts' regularity and &quot;forkiness&quot; (we chose, of course, maximum forkiness). There was a game where a lawn sprouts grasses, weeds, flowers, and bushes over multiple days, before at some point a man in a lawnmower would come screeching in columns to chop everything away. There was a game where a child, &quot;superboy,&quot; would scamper around the screen while randomly generated comic bubbles told his story. I watched with a group of friends for two hours, clicking excitedly through the list, continually surprised by the breadth of play they conjured. I think you probably have to emulate these, but it's worth it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>You can read more about the show in the zine the curators made, <a href="https://flan.itch.io/raindrop-races-zine">over here</a>.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div> ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>Sunday paper - 2 much Taiko (man's folly)</title>
+            <description>Took a break last week for Thanksgiving, but I am back in full force! Here's what I got excited about this last week (and change).</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-2-much-taiko-man-s-folly</link>
+            <pubDate>
+                Sat, 02 Dec 23 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Took a break last week for Thanksgiving, but I am back in full force! Here's what I got excited about this last week (and change).
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://ergman.itch.io/frog-up"><i>Frog Up</i></a>,
+             by <a href="https://ergman.itch.io/"> JohnLee Cooper</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12032023/FrogUp.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>There's a niche subgenre of walking sims where the environment is framed by 2D images you can push through to &quot;move&quot; between environments — games like clyde's <a href="https://clyde.itch.io/dont-bite-into-the-seed">don't bite into the seed</a> or Lilith Zone's <a href="https://lilithzone.itch.io/apt-map">Apt. Map</a>. I really love these games. I love the feel of pushing through borders, watching layers of a place peel back. This is another great entry in the genre (and not even a walking sim, to boot).
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>In this game you are a frog going up (as the name suggests). Unlike the other games mentioned, it's really hard to distinguish between layers in this game. Rows and rows of leaves and floating text jut across each other. A lot of the work is figuring out where the next ledge is to jump up to, which requires sifting through the debris. For me it felt like a process of continual disorientation giving way to direction, before leaping triumphantly back into the arms of disorientation. I quite like the feeling of having to stop and think for a minute about where I am, what my goal is, how to get from one to the other. I loved this game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://lilithzone.itch.io/room-map"><i>Room Map</i></a>,
+             by <a href="https://lilithzone.itch.io/"> Lilith Zone</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12032023/RoomMap.png"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Speaking of Lilith Zone! For me she is one of those developers who can basically do no wrong. A friend mentioned he had played this and so I immediately went to play it myself. It's part of her Map series so, like Frog Up, it sees you pushing through borders to see new worlds. But where Apt. Map is expansive, this is beautifully intimate. The whole thing takes place in a room (sort of) and instead of pushing out, you push in, diving into recursively nested diorama worlds. The degree of detail and action in the different worlds is quite striking — swimming between worlds that are all bustling with their own lives. The shifting sense of scale, too, is pretty amazing. I thought I understood how it worked until a friend told me to scroll down to see a 10 paragraph explanation complete with bulletted math equations. For now, I am happy to just glide through its beauty without ever fully understanding.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://alexz-z-z.itch.io/emotions-come-like-streams"><i>Emotions come like streams</i></a>,
+             by <a href="https://alexz-z-z.itch.io/"> Alex: z_z</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12032023/emotions.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is a slideshow game. It contains 10 slides of visual nonsense (of the &quot;lorem ipsum&quot; variety), and the instructions are to set the presentation to flip to the next slide after every second. Once the slideshow has begun, the nonsense text will begin to shift and flow almost like water. You're supposed to &quot;select a stream that seems good to you in mind...stare at it,&quot; and then find &quot;the source that causes it to flow.&quot;
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The way language has burrowed into our culture to claim many flags of aesthetic beauty is something I find quite lovely. Of course, language has linguistic / cognitive beauty, but when written down it contains visual beauty as well (and when typed out, spatial beauty). This is a game that plays with the aesthetics of language, the beauty of words on a page, and the affects they stir in us (whether we understand those words or not). In that way, this game reminds me of Hao's <a href="https://haoliao.itch.io/next-step">bike game</a>, or an art series my roomate did called <a href="https://ryanericksonart.com/the-shape-of-language">The Shape of Language</a>.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>But that's really just a small part of this game. In a surprising way, it feels almost like sitting by a river, catching all the nuances and dramas of the natural world, drifting in and out of focus in a sort of stateless existence. There's also a beautiful quality to a game that slips out from under you by your own actions. Having the slides zip by a second at a time is quite a rapid pace of change — it's hard for me to keep up! Even if I'm just following instruction, the knowledge that <i>I</i> am the one who set the slide to flow that fast makes for a very interesting feeling, entangling me in the process, and forcing me to hold to the rules despite full ability to change them.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.nintendo.com/us/store/products/taiko-no-tatsujin-drum-n-fun-switch/"><i>Taiko no Tatsujin: Drum 'n' Fun!</i></a>,
+             by DOKIDOKI GROOVE WORKS
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/12032023/taiko.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>If you thought that the subtitle for this post signaled that I had fallen out of love with <i>Taiko no Tatsujin</i> you would be WRONG. It is so fun. We got a second taiko drum and as it turns out the only thing better than <i>Taiko no Tatsujin</i> is two player <i>Taiko no Tatsujin</i>. The feeling of your friend, your trusted drum partner, standing drum-squat beside you, sticks to the heavens, and <i>whacking</i> out the <a href="https://www.youtube.com/watch?v=TrL9d4GrIGA"><i>Totoro</i> anthem</a> — what more could you want in this whole wide world? The earth rumbling force of rhythmic beauty — the splintered eruptions of plastic taikos being pummeled — the heartbeat harmonies of two friends and a drum — the DREAM of TAIKO made REAL — wow. What a game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>It is with a heavy heart, though, that I have to confess that we have (only two weeks in, it's true, I see the tragedy) broken one of the drums (a life that was never built to last the golden flame of its existence). We are sending it back for a replacement. LONG LIVE TAIKO!!!!!!!!!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div> ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>Sunday paper - Taiko forever!!!!!!!</title>
+            <description>This is my first one of these, but the plan is to just quickly post about the interesting things I played this past week. Here goes!</description>
+            <link>https://blog.joeyschutz.com/sunday-paper-taiko-forever</link>
+            <pubDate>
+                Sat, 18 Nov 23 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is my first one of these, but the plan is to just quickly post about the interesting things I played this past week. Here goes!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.nintendo.com/us/store/products/taiko-no-tatsujin-drum-n-fun-switch/"><i>Taiko no Tatsujin: Drum 'n' Fun!</i></a>,
+             by DOKIDOKI GROOVE WORKS
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/11192023/taiko2.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>If you don't know, I am a part of the games coworking-slash-events space <a href='https://linktr.ee/boshisplace'>Boshi's Place</a>. Some months back we were donated this game along with its surprisingly large taiko drum controller. We don't keep a switch in the space, so it's mostly just been gathering dust on a shelf. Squinting at the drum controller, we figured it was basically just an oversized button — a dark omen for how good the game could really be — but we organized a Wario Ware night this week (see below) and figured, a switch is here, what the hell, and gave this a brief try. We have been playing ever since...
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Honestly even without the drum or the videogame, just holding those drum sticks feels so good, they have some real heft to them. Because we've been playing in a well-insulated studio, we've had the freedom and space to really crank up the music and <i>whack</i> that drum with full force. It gets pretty in loud in there. But that's the magic of it! It's a rhythm game that conjurs the sweaty, physical energy of DDR — head down and arms wailing on the taiko feels incredible, like I'm one with the music, like I'm a true taiko master.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>We ordered a second drum so we can do taiko-offs and I am very excited.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://tabithanikolai.itch.io/utopia-without-you"><i>Utopia Without You</i></a>,
+             by <a href="https://tabithanikolai.itch.io/"> Tabitha Nikolai</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/11192023/UtopiaWithoutYou.jpg"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I played this the other night while I was waiting for something to download (or maybe I was waiting for a build to finish, I don't remember) and really loved it. The texture work is pretty stunning: everything has a wishy-washy watery feel to it, bending and warping in beautifully organic ways. The maxed-out specularity is really nice as well, giving the images this beautifully digitized quality.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Mechanically the game has an interesting disorientation. WASD rotates the little diorama but I wasn't totally able to grasp how the rotation angles were oriented, and rotating applies physical torque rather than on/off snapping so that things have a tendency to slip out from under you. I quite like this! I think it gives the scenes a little more life, having to work harder to get them to do what you want, and consequently stumbling your way into accidentally striking compositions. On the game's page, Nikolai says that the game is &quot;a kind of gamer den of the apocalypse...[ruminating] on transpessimism and isolation as a Pyrrhic survival technique,&quot; and the apocalyptic lens comes through: the spaces are deteriorating and fragile, and you have no ways to save it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>When I played I only got one scene, but the scenes change over time. I would love sometime to put it on in the background and let it go and wander into new terrains. Perhaps sometime soon!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.nintendo.com/us/store/products/warioware-move-it-switch/"><i>WarioWare: Move It!</i></a>,
+             by Intelligent Systems
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/meditations/11192023/WarioWare.PNG"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>One of my personal favorite games is WarioWare: Smooth Moves for the Wii. Wonderfully irreverent and playful, it marked me as a lifelong WarioWare fan. When I found out this week that a new WarioWare had been released (and apparently another one a few years prior...) I immediately made plans to play it with friends.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I don't like this one as much as Smooth Moves. I think it's a much worse aesthetic package — the music, the art, the voice acting and storytelling don't come together for me and aren't nearly as memorable — but the minigames themselves are still great fun. I played the singleplayer mode with a group of friends. We would rotate in a circle between minigames, each person playing one frantic challenge before desperately passing the baton before the next game begin. Contorting your body in silly ways is always fun, but doing it with friends is even better. I'm already looking forward to playing some more.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div> ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>First Post</title>
+            <description>Earlier this year, I played through a bunch of 2000s flash games. I found a lot of gems (maybe I'll write them up someday), but one of the most exciting parts about the whole ordeal was stepping back into the past and reading old blog posts from the early 2000s. I wasn't at all sure any of those sites would be up still, to be honest, so it was a pleasant surprise to be able to wade into the waters of 20-year-old discourse and see what people were playing or talking about at the time. Some of them, like TIG Source or Jay Is Games, I knew about — but many I did not! They tend to link out to each other which makes finding them surprisingly easy once you've started. And as you play games, many of those designers have their own blog sites as well, which adds to the pile. In particular I was inspired by the blogs of cly5m, Terry Cavanagh, Tim W., and many others — there are so many!</description>
+            <link>https://blog.joeyschutz.com/first-post</link>
+            <pubDate>
+                Sat, 18 Nov 23 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Earlier this year, I played through a bunch of 2000s flash games. I found a lot of gems (maybe I'll write them up someday), but one of the most exciting parts about the whole ordeal was stepping back into the past and reading old blog posts from the early 2000s. I wasn't at all sure any of those sites would be up still, to be honest, so it was a pleasant surprise to be able to wade into the waters of 20-year-old discourse and see what people were playing or talking about at the time. Some of them, like <a href="https://www.tigsource.com/">TIG Source</a> or <a href="https://jayisgames.com/">Jay Is Games</a>, I knew about — but many I did not! They tend to link out to each other which makes finding them surprisingly easy once you've started. And as you play games, many of those designers have their own blog sites as well, which adds to the pile. In particular I was inspired by the blogs of <a href="https://jayisgames.com/">cly5m</a>, <a href="https://distractionware.com/blog/page/70/">Terry Cavanagh</a>, <a href="http://indygamer.blogspot.com/">Tim W.</a>, and many others — there are so many!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Of course, not everything has survived. Many sites have shuttered entirely, and even the big ones that survived have taken down reams and reams of their old writings (i.e. GameSpot has deleted their entire features column, IGN won't let you go back earlier than 2018, etc etc). But it's hard to be too upset. Given the current landscape of games writing, it's amazing to me that anything at all has survived.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>The more I've been thinking about the ghostly ephemerality of games writing — <i>especially</i> writing about small games — the more despairing I feel. Almost everything is being swallowed by the vast sands of Twitter, where it can never be found again. How will anyone, myself included, ever know anything at all about this period of games? The AAA writings, perhaps, will be fine (although there's cause for concern there as well, as sites stare the cliff of financial extinction), but the landscape of writing about small, experimental games has all but vanished. It strikes me as a crisis!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>And then I found these old, death-defying blogs from the early 2000s. Not reliant on any media platforms to hold them afloat, they've kept the lights on for decades now. It was very inspiring.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Which brings me to this blog. I've been itching to write more in general anyways, but have been feeling increasingly annoyed / uninspired by Medium (where I used to send out my thoughts), so I thought I'd make my own site. And here it is :) I hope to post a round up of what I've played and thoughts each Sunday. And perhaps other writings as well? Time will tell haha.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>See you soon~
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+ ]]> 
+            </content:encoded>
+        </item>
+    
+        <item>
+            <title>Favorites of 2022</title>
+            <description>I guess the last time I did one of these was four years ago…wow! This year I played a lot of wonderful games, though the vast majority of them were made by friends and peers (journalistic integrity be damned). I suppose these sorts of lists are somewhat self-indulgent, but I enjoy making them, so here it is! This year I decided to include my favorite movies and books I enjoyed over the year as well. The list isn't ranked at all — everything is listed in the order in which I came to it — and I didn't bother to trim it to only “the top ten” or anything. Different things resonated with me for different reasons, and why shouldn't we praise and celebrate generously, after all? If something stuck with me, however large or small, I've included it below.</description>
+            <link>https://blog.joeyschutz.com/favorites-of-2022</link>
+            <pubDate>
+                Sun, 01 Jan 23 19:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[ <!-- INTRO -->
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I guess the last time I did one of these was four years ago…wow! This year I played a lot of wonderful games, though the vast majority of them were made by friends and peers (journalistic integrity be damned). I suppose these sorts of lists are somewhat self-indulgent, but I enjoy making them, so here it is! This year I decided to include my favorite movies and books I enjoyed over the year as well. The list isn't ranked at all — everything is listed in the order in which I came to it — and I didn't bother to trim it to only “the top ten” or anything. Different things resonated with me for different reasons, and why shouldn't we praise and celebrate generously, after all? If something stuck with me, however large or small, I've included it below.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I am working on a game about goodbyes right now, and it has made me realize how complicatedly beautiful these “goodbyes” to the new year are — celebrations for some of the most difficult aspects of our lives: change, age, and the loss of time. But, of course, these are not empty losses. They are bounties, harvests of wisdom and friendship and, yes, the odd videogame. Here are some things I was grateful for this year.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<!-- ============================================================== -->
+<!-- ==========    GAMES WRITE UPS     ============================ -->
+<!-- ============================================================== -->
+<div class="Blog-header" style="">
+    Favorite Games
+</div>
+<!-- ELDEN RING -->
+<!-- JASMINE HARD TO SAY WHY -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- PARAGRAPH RENDERS -->
+<div class="Meditations-gameSection" style="margin-top: 0px;">
+    <div class="Blog-subheader"><i>Elden Ring</i>,
+             by FromSoftware
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/eldenRing.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I go through regular spirals with AAA games where I wonder if I even like videogames — long stretches of time where I pick something up, then put it down feeling cold. It's sort of disheartening. I'm not sure how much of it is due to the sheer amount of time I spend with videogames numbing me to their effects, versus what feels like an increasingly commodified field that churns out more “content” than art.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Regardless, Elden Ring came through for me. It's a world with real mystery to it, predictably-satisfying combat, and an open world design that — well, it doesn't exactly get rid of the oft-derided Ubisoft model — but nonetheless it sands it down to be less gaudy and irksome. I enjoyed flying through fields and forests, and dying spectacular, humiliating deaths.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I did find it to be a bit bloated…what's the deal with these hundred hour games, anyways. I didn't finish it, and I probably won't, but that's a small price to pay to be enamored with AAA games again. Thanks, Elden Ring :)
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.youtube.com/watch?v=CJvF65jCaG4"><i>Jasmine hard to say why</i></a>,
+             by <a href="https://gurnburial.itch.io/"> GURN GROUP</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/JasmineHardtoSayWhy.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This one is sort of cheating because the game is still being worked on and isn't publicly available anywhere, but I got a chance to play it hot and fresh earlier in the year and haven't stopped thinking about it since. There is such a dense air of alienation and longing in this game, while you poke and prod at a mezze plate of serenely beautiful, muted dioramas. If anything else like it exists, I've not played it. Whenever it does come it out — it's essential playing. In the meantime, you can play through <a href="https://gurnburial.itch.io/">GURN GROUP's other games</a>, which are short, strange, and fascinating.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://thecatamites.itch.io/magic-wand"><i>Magic Wand</i></a>,
+             by <a href="https://thecatamites.itch.io/"> thecatamites</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/MagicWand.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Nobody does it like thecatamites! Sort of surprising I hadn't played this before (and actually there's lots of thecatamites games I still haven't played…!) but well worth the wait. Typically irreverent and playful, I loved playing this game. So many games become a blurred memory for me (even the good ones!) and it's a testament to thecatamite's ability to draw up varied, tactile environs that I can still recall so much detail of this one. I think my favorite set piece was the train. Great music. Here's to a new year of getting through my thecatamites backlog!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://danielben.itch.io/night-raveler"><i>Night Raveler and the Heartbroken Uruguayans</i></a>,
+             by <a href="https://danielben.itch.io/"> Daniel Benmergui</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/NightRaveler.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Daniel Benmergui is such an interesting developer. When I think of puzzle design, I think of highly brainy/cerebral experiences. Even the “arty” ones, by otherwise “arty” developers (like increpare's Stephen's Sausage Roll) are just immaculately well-crafted puzzlers that think through all the interesting permutations of an idea. And, of course, those are wonderful games! But Benmergui's stuff feels like, rather than making a puzzle game feel “artful,” he's making an “art game” and using puzzle mechanics to get there. Instead of taking a puzzle mechanic and turning it over in all its complexities, he wields puzzles as evocations of ideas and feelings in ways I can't think of done elsewhere.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I played Night Raveler one brief morning and was enraptured with it. The way it draws up loneliness, aching across city skyscapes, and begs you to uproot it. The way I spent fifteen minutes trying desperately to make people happy, grew closer and closer to understanding what the nameless residents wanted and cared for. The way their hearts opened up to me at last. And, without much fanfare, the night melted away. What a gorgeous little game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://sirmilkman.itch.io/starchild"><i>starchild</i></a>,
+             by <a href="https://sirmilkman.itch.io/"> SirMilkman</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/StarChild.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So many games are more complicated than they need to be. Rickety from crafting mechanics and open worlds and side quests and who knows what, most games are overstuffed with things they think they “need.” This is a platformer without challenge. It gets a lot out of playful animations and delicate sound work. But mostly it knows that it's a joy to climb. Watching the slow progression of a character go from one place to another, up and up, into the sky…lovely. It'll go by before you're ready.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://droqen.itch.io/awake"><i>awake</i></a>,
+             by <a href="https://droqen.itch.io/"> droqen</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/awake.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This game led me to experiment with a lot of “nonplaying” games: little experiments where you close your eyes while playing, or play by sort of removing yourself from play, in a way. But I think the simplicity of this game does it better than anything I really made. If I remember right (I can't seem to find the blog post anymore) this was made in a direct response to SirMilkman's game above, and you can feel the relation. Two little tone poems that reflect on the purity of a genre, the humble platformer, and find blissful peace where it takes them.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://withpondlife.itch.io/discone"><i>discone</i></a>,
+             by <a href="https://withpondlife.itch.io/"> pondlife</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/discone.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I've had the pleasure of watching discone (pronounced “disk oh nay”) from its infancy. It has such an oddball charm, and plays like nothing I've ever played before. It's sort of like a eurojank platformer, or a Super Mario 64 dream. It's radically open and lovably strange and has been really inspiring to watch as it's taken shape. It's an amazing game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Lately, I've been feeling pretty down about contemporary level design trends. Somehow we've become so obsessed with ensuring the player is never lost or confused that we never even give them a chance to think. Most AAA games I play I feel utterly mindless, plodding forward not because I particularly want to but because there's so clearly nothing else to do. Where's the magic in that! It's a breath of fresh air, then, to pick up something so rich in personality, where I have to think constantly about how to get from one place to another. A game that assures you that it doesn't even know all of the paths available. It's a game that wants you to break it open, for when you do — who knows what you might find?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://pancelor.itch.io/like-a-hot-knife-through-butter"><i>like a hot knife through butter</i></a>,
+             by <a href="https://pancelor.itch.io/"> pancelor</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/likeAHotKnifeThroughbutter.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I love puzzle games. Back when I worked as a software engineer, in the sleepy days of the pandemic, it used to be my morning ritual to make a cup of coffee and drink it over a random puzzle game on itch.io. With my erratic schedule this year, and less time on my hands anyways, I played very few puzzle games — which I hope to amend in the new year. But I played this game over the summer, and it helped me remember why I love them, especially the itch.io-fare. Small, bite-sized challenges to chew on over the morning. Lovely stuff. After playing this, I played through a lot of pancelor's games, and was not disappointed. It's a treasure trove of good puzzle games, don't stop with this one.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://flan.itch.io/titanic"><i>Titanic II</i></a>,
+             by <a href="https://flan.itch.io/"> flan</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/TianicII.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Earlier this year I read Melos Han-Tani's <a href="https://melodicambient.neocities.org/posts/2021-01-10%20Deadgames%20and%20Alivegames.html">“Deadgames and Alivegames” essay</a> which basically makes the argument that games should be made with smaller teams, so you can feel the personality of the creators. It's a piece that resonated a lot with me — and this is a thoroughly alive game — and for some reason it got me thinking about time in games, and how I felt a similar (but less finger-wagging) taxonomy could be applied to time: “dead time” and “alive time.” I was thinking of Brendon Chung's walking sim games Gravity Bone and Thirty Flights of Loving, which I feel operate on a quasi-realtime continuum. They ask the player to participate in an active game time, rather than wait for the player to dictate a tempo (which thus makes the game's time “alive” in its own right, rather than “dead” and awaiting the player to breathe corporeality into it). I'm thinking of the chase sequences in particular, which have nothing except trust in the player to ensure that the anxious tempo of the scene is played out. If you choose to dally, the games just…don't really work, and in that way I think of them as “alive.”
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Anyways, there's not really space here to dive too deep into this but the point is that Titanic II is another deliciously “alive” game. I love it for the way it forces time to a crawl, and forces its passengers to soak in the stretched moments. It has an intro sequence that is truly unforgettable — silly, strange, frightening, ethereal, and, yes, stirringly beautiful — and sprawls across a wide range of captivating locales and moods.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>There's a growing movement of games, which developer <a href="https://ergman.itch.io/">JohnLee Cooper</a> deems <a href="https://itch.io/c/2861178/plundercore">“Plundercore”</a>, that use ripped assets in their games, and Titanic II is a shining edition. Spongebob and Mario lie wrecked and emaciated over a flattened seabed: husks of forgotten games, laid to waste. Piles of culture lie dormant in the sea, memories and memories of TV reruns and borrowed mornings. It's eerie and funny and tragically beautiful to walk among them. Videogames are alive and well.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://lilithzone.itch.io/apt-map"><i>Apt. Map</i></a>,
+             by <a href="https://lilithzone.itch.io/"> Lilith Zone</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/AptMap.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>So many games stretch and bend in an effort to hide the artifice of their worlds, yet here's a game that lays it out plainly. You are held inside by a skybox, which you fly through to find another, and another, and another… It's pretty breathtaking peeling away the layers, excitedly hovering towards a new mysterious world, not knowing when it might end or where it might take you. Magisterial.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://store.steampowered.com/app/1533420/Neon_White/"><i>Neon White</i></a>,
+             by Angel Matrix
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/NeonWhite.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I didn't get too hooked on the high score chasing in this game, to be honest. I beat my friends a couple of times in the first world, but mostly continued to trundle onwards deeper into the game. While it's certainly high dexterity, what I loved most about this game was that each level was like a little puzzle box. I wonder if jumping from this corner instead will shave off 0.3 seconds? Or maybe I can hobble up that wall if I get the right angle? It's really fun to grow intimate with a space, and to understand all its exploits, before —breathe in, breathe out — giving it one last run for the gold.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://mutmedia.itch.io/re-imagine-the-character"><i>Re: Imagine the Character</i></a>,
+             by <a href="https://mutmedia.itch.io/"> mut</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/ReImagineTheCharacter.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I played this game at a summer rooftop party and it was some of the most fun I've ever had playing a game. The idea is that you play a series of levels by imagining yourself completing its challenges. It might sound confusing, but I promise it's a blast! It adds lots of clever twists, but more than anything it made me think about our appetites for play. We need nothing more than our imaginations and a picture to get going, and somehow we can fool ourselves into laughing and shouting at nothing at all. Fantastic.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://www.nintendo.com/us/store/products/shin-chan-me-and-the-professor-on-summer-vacation-the-endless-seven-day-journey-switch/"><i>Shin chan: Me and the Professor on Summer Vacation</i></a>,
+             by Millennium Kitchen
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/ShinChan.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is another game I didn't finish — I think I got distracted or something, I can't remember, but by the time I came back to it its fires had died for me. That's how it goes sometimes. But, for the time I really gave to it, I loved it dearly. This is another “alive time” game, and the thing I loved most about it was how patient, gentle, and directionless it was. The game is on a day/night cycle, and every night your neighbor reads a new bedtime story to her kids on the porch, and you can come by and just stand there, with the crickets humming, the leaves swaying, the music lulling, and listen. It's so nice.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>It reminded me of playing Animal Crossing for the first time, having my own rhythms lock into the game, and being happy to do nothing at all in a small town. With games getting bigger and bigger, with more and more “stuff” to do, I love this game for giving me so little, and letting it mean so much.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://spookysoft.itch.io/the-spooky-house"><i>The Spooky House</i></a>,
+             by <a href="https://spookysoft.itch.io/"> SPOOKYSOFT</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/TheSpookyHouse.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>What a gift it is to share games. I played this over the summer with a group of friends. It took us some time to understand it, and start to unearth its secrets, to the point where we almost gave up on it. But suddenly it clicked, and we solved one puzzle after another, getting more and more excited together as the game opened up to us. Eventually we were hootin' and hollerin' — true friendship — and by the time the game came to a close I was sad to see it go. Brief, spooky-silly, and one of the most charming walk-cycles of recent memory, this is such a lovely little game. When I think of it, I think of my friends — what more could I ask for?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://hawkdanny.itch.io/how-to-be-born"><i>how to be born</i></a>,
+             by <a href="https://hawkdanny.itch.io/"> Danny Hawk</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/HowToBeBorn.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I don't want to spoil this game — part of its magic is gradually coming to understand what it wants from you. The other part of its magic is performing what it's asking. I was tongue-between-teeth grimacing/smiling and contorting my body in dire positions while I played it, and it was a blast.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>What really makes this game so good is that somehow, some way, all this collapses into exuberant beauty — the sheer, silly, sweating-laughing absurdity of physical life. Go play it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://gurnburial.itch.io/sep-10"><i>_sept 10</i></a>,
+             by <a href="https://gurnburial.itch.io/"> GURN GROUP</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/Sep10.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>When I was a kid, I would give so much time to the games I played. I would pick up games I didn't know how to play, and I would stare at them for hours, trying different things here and there in the hopes of making something happen. Somewhere along the way from there to here, I've lost that. But when I think of my time playing games as a kid, I think often of those long stretches of time standing before impenetrable objects, enraptured by the mystery of it all. Gradually, I would come to understand the game, and its mystery would fade, forever.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is a game I don't know how to play. It's strange and obtuse, and I guess it's bite-sized enough for me to feel comfortable gutting out ten minutes to try and get something to happen. I never did. But it reminded me how intoxicating it is to feel the distance between myself and another thing. I left this as a comment, but: “I think maybe there's something to maintaining the mystery of a work — we come to a game not knowing yet how to play it, until eventually we figure it out. But there's a real magic to the dance that gets us from one to the other. Playing this feels like lingering in that dance, as long as possible, before the beautifully alien snaps back into the familiar.” This game is a gift.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://nyusha-fun.itch.io/and-then-we-just-go-home"><i>art is too important not to share</i></a>,
+             by <a href="https://nyusha-fun.itch.io/"> Nyusha</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/ArtIsTooImportantNotToShare.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>For such a vulnerable endeavor, it's a genuine oddity that most art leaves us feeling lukewarm. How strange to pour our hearts over something, send it out into the world with shallow breaths, only to have people give it a distant glance-over and walk away. How dare they!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>And yet, that's how it goes. It's understandable. I love this game for how it portrays the steadfast artist, who finds hope in the process. They don't even seem to be particularly deflated by the end of it when no one seems to care about their mural. Good for them! But it's funny too how much our lives are inundated with art these days — piles of things vying for our attentions. How many things have I seen then forgotten?
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Anyways, the game oozes charm and humor — Nyusha is a great writer — and when I think of it I remember laughing and smiling and feeling forlorn empathy for the cowering artist. I should probably play more Bitsy games. It's amazing how fun it is to just do some easy arrow-key walking, take in the sights, read the little words, and enjoy myself. Good game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://haoliao.itch.io/there-is-a-beautiful-star"><i>There's a Beautiful Star</i></a>,
+             by <a href="https://haoliao.itch.io/"> Hao Liao</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/TheresABeautifulStar.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>When I think of Hao's games, I think of small games of emotional clarity. They are patient and and gentle, and I walk away feeling something understood about myself. He makes beautiful games. I could have chosen any number of his games, but for fear of garishness decided to just include this one with a note urging you to play more if you like it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I think this game is a typical “Hao” game: short, sweet, and slowly unravels its layered charm until you're fully in its world. I think it's best if you play it yourself. It'll only take a couple of minutes. And once you've done that, I promise, you'll be glad you did.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://mattmora.itch.io/stellata-waterway"><i>Stellata Waterway</i></a>,
+             by <a href="https://mattmora.itch.io/"> mattmora</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/StellataWaterway.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Like Hao, I could have listed a number of Matt's games, but this is the one I keep coming back to. It's a phenomenal arcade game, with a really great push-pull mechanic for points-chasing, as well as a mechanic that lets you chain jumps together. The result is something that's beautifully slick and expressive — and that music! Wow. Sometimes I get caught up in the “artsy” world of games I think (which Matt is no stranger to!), but it's a real pleasure to have games like this pull me back to the realm of pure, foot-thumping fun. I'm excited to beat my high score in the new year.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://ergman.itch.io/heart-like-train"><i>Heart Like Train</i></a>,
+             by <a href="https://ergman.itch.io/"> JohnLee Cooper</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/HeartLikeTrain.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Sometimes the right game comes to you at the right time. I was deep in a game dev funk, exhausted of ideas and inspiration, when a friend sent this to me. It helped me remember what I love about games. The mouse controls are just awkward enough to help me feel its intimacy, since I felt so aware of it, which created this breathlessly delicate experience. It's simple, it's strange, and it's staggeringly beautiful. This is one I cherish.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://tassneenbashir.itch.io/magical-girl-city-takeover"><i>magical girl city takeover</i></a>,
+             by <a href="https://tassneenbashir.itch.io/"> tassneen bashir</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/MagicalGirlCityTakeover.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Forgive me, but I'm returning again to the idea that games can be uncomplicated. Here's a game where you just point and click to cycle through city aesthetics. But it's so fun (and so cute omg)! The sights, the sounds…amazing.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I love that even after you've eliminated the gray, you still have to cycle through it. Every time I try to tick through the options and a harsh gray rectangle stares back at me I yelp and click frantically to make its dull ugliness go away. I think it makes you feel how much the city has come to life, by being reminded of what it used to be. Magical girl city forever!!!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://jseakle.itch.io/game"><i>Game</i></a>,
+             by <a href="https://jseakle.itch.io/"> jseakle</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/Game.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This is an astounding game. Another one best played rather than read about. But I think it's in a similar vein to mut's Imagine the Character: an excavation of our hunger for play. The whole game is played in Notepad, and is more or less just a series of instructions. But it's amazing fun to have to do ridiculous tasks just because a text file told you to. One of the most excitedly gleeful games I played all year. I can't stop thinking about it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>tetris, but all at once</i>,
+             by <a href="https://jwhop.itch.io/"> Jonny Hopkins</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/TetrisButAllAtOnce.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Sadly, I don't have a picture of this one :( I played it at Babycastles in December and I'm not aware of a public build for it. But, the pitch is that you play Tetris, but every time you clear a line, another, simultaneous game of Tetris pops up. If you lose in any of the open Tetris's then that's game over. It's great, cacophonous fun trying to juggle a million active games of Tetris at once, and it's a fun spectator game as well. To add to an already great idea, it's a nice bit of archival work — the Tetris versions are more obscure (to me) and it's great fun seeing all the different visual variants cooked up over the years. If you ever get a chance to try it, I can't recommend it enough.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://sylvie.itch.io/sylvie-lime"><i>Sylvie Lime</i></a>,
+             by <a href="https://sylvie.itch.io/"> sylvie</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/SylvieLime.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>This one I played at Babycastles as well. Me and Hao had to wait literally an hour to get to it because the people ahead of us were having too much fun. It's that good! I still need to sit down and play it through on my own time proper, but what I love about this game is how open and mysterious it is (writing all this up makes me realize I like “mystery” in games I guess). Half the walls in the game you can walk through, some you can't; you can turn into a lime at any point and fly through the levels (though you won't be impervious to spikes!); and you can create spawn points wherever you want (which you can even use to “teleport” across levels by arcing spawn points and then dying). It's brilliant.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Playing this and <a href="https://sylvie.itch.io/cactus-block-on-adventure">Cactus Block on adventure!</a> (which is also amazing) has single-handedly refreshed my interest in the 2D platformer. What a joy it is to find hope in an old genre. (As an aside, I feel like shooters are usually talked about as the “prototypical” videogame, but surely that honor should to go to the death-defying 2D platformer? Would be fun to trace a history of games via the lens of platformers. Anyways!) I really need to play Clockwork Calamity and Cruel World. Things to look forward to this year!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://mkapolka.itch.io/stomp-plonk"><i>Stomp Plonk</i></a>,
+             by <a href="https://mkapolka.itch.io/"> Marek Kapolka</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/StompPlonk.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>What a world this game has. I love Marek's art, and waddling around plucking my lute is impossible fun. I also love its level design (see level design screed in discone) — right as I booted up the game, I took two steps on the dock and immediately plummeted through a hole in the ground. What a good gag! Made me keenly aware of the world and its affordances. Somewhere in the forest there are jagged rocks at odd angles, which I clamored between happily. I think there are a lot of secrets in this game, but I actually didn't find any. I was too happy just ambling about, taking in the sights. And I haven't even mentioned the music! What a game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><a href="https://gabbahbaya.itch.io/rem"><i>REM</i></a>,
+             by <a href="https://creepy-grapy.itch.io/">Priscilla</a>, <a href="https://gabbahbaya.itch.io/">Yasmine</a>, and <a href="https://alexz-z-z.itch.io/">Alex</a>
+<p></div></p>
+<p><div class="Blog-imageFullWidth">
+<img src="/img/favorites-of-2022/REM.webp"></img>
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>A game I wish wouldn't end. Supremely gorgeous, brief, ascendant. Whoever brought us down the path of “floaty” jump demonization should be sorry!
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>I don't really know how to put this one into words. It has so much life to it, soaring around you. Delicate, intangible, and alive. A beautiful game.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>It will take you three minutes — you should play it.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+</div>
+<!-- ============================================================== -->
+<!-- ==========    BOOKS WRITE UPS     ============================ -->
+<!-- ============================================================== -->
+<div class="Blog-header" style="margin-top: 70px;">
+    Favorite Books
+</div>
+<div class="Meditations-gameSection" style="margin-top: 0px;">
+    <div class="Blog-subheader"><i>Remains of the Day</i>,
+             by Kazuo Ishiguro
+<p></div></p>
+<p><div class="Blog-paragraph">
+The very first book I read this year ended up being my favorite — what are the odds! A book about a butler who finds meaning in service, told with humor, heartbreak, and beauty. The way the narrator circles around things he will and won’t allow himself to say or feel — devastating.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Orlando</i>,
+             by Virginia Woolf
+<p></div></p>
+<p><div class="Blog-paragraph">
+Does anyone write as well as Virginia Woolf?
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Transit</i>,
+             by Rachel Cusk
+<p></div></p>
+<p><div class="Blog-paragraph">
+Second book in the Outline trilogy, and lives up to the hype. A book about change and renewal. Gorgeous.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Atonement</i>,
+             by Ian McEwan
+<p></div></p>
+<p><div class="Blog-paragraph">
+So good. Wonderfully constructed, and emblazons the hurt and confusion we inflict, large and small, through every day life — through thinking and not thinking — and the hopes we hold to atone.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Love in the Time of Cholera</i>,
+             by Gabriel Garcia Marquez
+<p></div></p>
+<p><div class="Blog-paragraph">
+The first fifty pages in this, where Marquez holds so many threads in simultaneous suspense, is simply perfect storytelling. A master at the height of his powers.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Kudos</i>,
+             by Rachel Cusk
+<p></div></p>
+<p><div class="Blog-paragraph">
+The final book in the Outline trilogy did not disappoint. There’s a particular passage I keep thinking about where she describes a cathedral that caught fire whose congregation continues to hold mass in its charred interiors. How destruction is a kind of change — how sometimes beauty is not lost, but transformed.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Well-Played Game</i>,
+             by Bernie De Koven
+<p></div></p>
+<p><div class="Blog-paragraph">
+Required reading for game designers. Expansive and unpretentious. A singular work.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Rabbi’s Cat</i>,
+             by Joann Sfar
+<p></div></p>
+<p><div class="Blog-paragraph">
+Silly and compassionate, and, by the end, just beautiful.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Sauces</i>,
+             by James Peterson
+<p></div></p>
+<p><div class="Blog-paragraph">
+I haven’t made any of the recipes because, gosh, that sounds like a lot of work. But I’ve been smiling at the pictures and enjoying reading little things about sauces. It was actually a really good subway read when I had it on Kindle from the library, but now that I have my own physical, 600-page tome at home I just stare at it lovingly from the couch. Actually my favorite part was the very first section, where he goes through a history of western sauce making. He talks about how tastes and styles have changed as access and costs of ingredients have evolved. (They used to just coat their chicken roasts in gold?) It made me realize, for the first time, that food — like any art form — does not hold to a linear progression of quality. Styles and tastes change across centuries, but it doesn’t diminish the merits of ancient cuisine. I still remember being in college and hearing the complex harmonies of Medieval and Renaissance composers (before modern harmonic tastes became codified in the Baroque era) and being utterly enraptured with the harmonies I had never heard before. Makes me want to make some Medieval recipes. Maybe next year!
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Lord of the Rings</i>,
+             by JRR Tolkien
+<p></div></p>
+<p><div class="Blog-paragraph">
+#1 hiking book. It’s all great, but I particularly loved Fellowship, which spends so much time among the ruins of lost ages, letting the hobbits stare over unreachable times.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Life and Times of Scrooge McDuck</i>,
+             by Don Rosa
+<p></div></p>
+<p><div class="Blog-paragraph">
+Such a fun little adventure book. Great way to close the year.
+</div></p>
+</div>
+<!-- ============================================================== -->
+<!-- ==========    MOVIES WRITE UPS     =========================== -->
+<!-- ============================================================== -->
+<div class="Blog-header" style="margin-top: 70px;">
+    Favorite Movies
+</div>
+<div class="Meditations-gameSection" style="margin-top: 0px;">
+    <div class="Blog-subheader"><i>Summertime</i>,
+             by David Lean
+<p></div></p>
+<p><div class="Blog-paragraph">
+The final shot in this movie...amazing.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Point Break</i>,
+             by Katherine Bigelow
+<p></div></p>
+<p><div class="Blog-paragraph">
+I honestly can’t tell if Bigelow is aware that the screenplay is hilariously bad, but everyone plays it dead serious, and with such craft, that it just sings. Some of the most fun I’ve ever had with a movie.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Cook, The Thief, His Wife and Her Lover</i>,
+             by Peter Greenaway
+<p></div></p>
+<p><div class="Blog-paragraph">
+Defies basically everything I thought were the rules of storytelling, and triumphs. Revolting, delicate, and sublime.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Drive My Car</i>,
+             by Ryusuke Hamaguchi
+<p></div></p>
+<p><div class="Blog-paragraph">
+Just beautiful.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>The Worst Person in the World</i>,
+             by Joachim Trier
+<p></div></p>
+<p><div class="Blog-paragraph">
+Probably my favorite movie I saw this year. The score, the writing. A work of tragedy and compassion. I think of it often.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Charade</i>,
+             by Stanley Donen
+<p></div></p>
+<p><div class="Blog-paragraph">
+It’s unfair for a movie to be this fun.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Petite Maman</i>,
+             by Celine Sciamma
+<p></div></p>
+<p><div class="Blog-paragraph">
+This movie is so sweet. Feels like it got buried? But I can’t stop thinking about it. The pancake scene is probably the cutest 90 seconds put to film. Serenely understated and loving — I adore this movie.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Distant Voices, Still Lives</i>,
+             by Terence Davies
+<p></div></p>
+<p><div class="Blog-paragraph">
+This was a really difficult watch for me — be warned, it’s just scene after scene of child/domestic abuse. It is very bleak. But, the embers of hope that are buried throughout, the brushes of compassion, continue to haunt me. An amazingly effecting film, and unlike anything I’ve ever seen before (feels like every scene is max 90 seconds). There is a moment near the end when the withered realism breaks open, briefly — probably the single shot that stayed with me the most all year. A really, really good movie.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Kung Fu Panda</i>,
+             by John Stevenson & Mark Osborne
+<p></div></p>
+<p><div class="Blog-paragraph">
+Kung Fu Panda!!!
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Nostalghia</i>,
+             by Andrei Tarkovsky
+<p></div></p>
+<p><div class="Blog-paragraph">
+It’s Tarkovsky, so you know it’s good.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Wheel of Fortune and Fantasy</i>,
+             by Ryusuke Hamaguchi
+<p></div></p>
+<p><div class="Blog-paragraph">
+An anthology piece that I actually liked more than Drive My Car. Particularly loved the final short. Wonderful. I should make time for Happy Hour this year...
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Triangle of Sadness</i>,
+             by Ruben Ostlund
+<p></div></p>
+<p><div class="Blog-paragraph">
+Been a while since I laughed so much with a movie. Saw it with friends — a real treat.
+</div></p>
+</div>
+<div class="Meditations-gameSection" style="">
+    <div class="Blog-subheader"><i>Beau Travail</i>,
+             by Claire Denis
+<p></div></p>
+<p><div class="Blog-paragraph">
+Rhythmic, hypnotic, captivating, unforgettable. That ending! Wow.
+</div></p>
+</div>
+<!-- ============================================================== -->
+<!-- ==========    CODA     ======================================= -->
+<!-- ============================================================== -->
+<div class="Blog-header" style="margin-top: 70px;">
+    Coda
+</div>
+<p><div class="Blog-paragraph">
+That’s it for me! I hope this past year was good to you — and may the next one be better.
+</div></p>
+<p><div class="Blog-paragraph"></p>
+<p></div></p>
+<p><div class="Blog-paragraph"></p>
+<p>Happy new year :)
+</div></p>
+ ]]> 
+            </content:encoded>
+        </item>
+    
+  </channel>
+</rss>
