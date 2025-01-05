@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Joey Schutz Blog RSS Feed</title>
     <description>Joey Schutz's Blog</description>
     <link>https://blog.joeyschutz.com</link>
     <lastBuildDate>
-      Sun, 05 Jan 25 17:41:48 GMT</lastBuildDate>
+      Sun, 05 Jan 25 18:57:15 GMT</lastBuildDate>
     <ttl>20000</ttl>
 
     
