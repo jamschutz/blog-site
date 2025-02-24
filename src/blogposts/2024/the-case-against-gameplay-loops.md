@@ -26,7 +26,7 @@ Picture this: you are making a movie about a man aging into a world he no longer
 {% endcapture %}
 {% render 'blog/paragraphs.liquid' text: pt1 %}
 
-{% render 'blog/youtube-embed.liquid' %}
+{% render 'blog/youtube-embed.liquid' video-link: "https://www.youtube.com/embed/TUhAJxx4kFI" %}
 
 {% capture pt2 %}
 Now picture the game. It would be a cutscene. Or, worse, the whole game would be about dancing. You’d start as a young dancer, talented but raw. You’d have rivals and challengers as you grow into your craft. New locations and clothing to unlock, side quests and collectables. And it would end with Visconti’s scene, where you fade into elegance, a touching finale. And perhaps it would feel quite beautiful: a dying breath in the clamor of candlelight, made all the more beautiful by the repetitions preceding it. But let’s think about this…the story isn’t about dancing! It’s not about clothing or exotic travel, or side quests or trinkets, it’s about a fading aristocrat. In the film, we see them talk, they hunt, we see battles and political rallies. We see dinner parties and long walks. The action _changes_. Of course it does. And our game, which is now about dancing, we’ve lost all of this. We lost the grandiosity of the character. We lost his multifaceted nature, his quiet interiority. We lost the political climate’s bombastic reverberations. We have taken all of this and gone and made a game about _dancing_. We’ve made a game loop.
